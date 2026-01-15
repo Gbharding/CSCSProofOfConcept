@@ -1,0 +1,70 @@
+﻿@page
+@model CSCSProofOfConcept.Pages.Projects.CreateModel
+
+        @{
+        ViewData["Title"] = "Create";
+        }
+        
+        <h1>Create</h1>
+        
+    <h4>Project</h4>
+    <hr />
+    <div class="row">
+    <div class="col-md-4">
+    <form method="post">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <span class="text-danger">*</span>
+                <label asp-for="Project.Name" class="control-label"></label>
+                <input asp-for="Project.Name" class="form-control" aria-required="true"/>
+                <span asp-validation-for="Project.Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Project.PrjType" class="control-label"></label>
+                <select asp-for="Project.PrjType" class="form-control" ></select>
+                <span asp-validation-for="Project.PrjType" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Project.PrjStage" class="control-label"></label>
+                <input asp-for="Project.PrjStage" class="form-control" />
+                <span asp-validation-for="Project.PrjStage" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Project.OldSpec" class="control-label"></label>
+                <input asp-for="Project.OldSpec" class="form-control" />
+                <span asp-validation-for="Project.OldSpec" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Project.NewSpec" class="control-label"></label>
+                <input asp-for="Project.NewSpec" class="form-control" />
+                <span asp-validation-for="Project.NewSpec" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Project.PrjPrice" class="control-label"></label>
+                <input asp-for="Project.PrjPrice" class="form-control" />
+                <span asp-validation-for="Project.PrjPrice" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Project.FreightStrat" class="control-label"></label>
+                <input asp-for="Project.FreightStrat" class="form-control" />
+                <span asp-validation-for="Project.FreightStrat" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Project.History" class="control-label"></label>
+                <input asp-for="Project.History" class="form-control" />
+                <span asp-validation-for="Project.History" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

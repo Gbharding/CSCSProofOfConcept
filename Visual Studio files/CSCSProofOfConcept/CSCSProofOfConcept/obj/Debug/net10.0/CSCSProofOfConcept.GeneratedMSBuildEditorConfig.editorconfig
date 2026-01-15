@@ -1,14 +1,22 @@
 is_global = true
 build_property.TargetFramework = net10.0
-build_property.TargetFrameworkIdentifier = .NETCoreApp
-build_property.TargetFrameworkVersion = v10.0
+build_property.TargetFramework = net10.0
+build_property.TargetPlatformMinVersion = 
 build_property.TargetPlatformMinVersion = 
 build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
 build_property.PlatformNeutralAssembly = 
 build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.TargetFrameworkIdentifier = .NETCoreApp
+build_property.TargetFrameworkVersion = v10.0
 build_property.RootNamespace = CSCSProofOfConcept
 build_property.RootNamespace = CSCSProofOfConcept
 build_property.ProjectDir = C:\Users\GBHar\source\repos\CSCSProofOfConcept\CSCSProofOfConcept\Visual Studio files\CSCSProofOfConcept\CSCSProofOfConcept\
@@ -22,6 +30,26 @@ build_property._RazorSourceGeneratorDebug =
 build_property.EffectiveAnalysisLevelStyle = 10.0
 build_property.EnableCodeStyleSeverity = 
 
+[C:/Users/GBHar/source/repos/CSCSProofOfConcept/CSCSProofOfConcept/Visual Studio files/CSCSProofOfConcept/CSCSProofOfConcept/Pages/DistributionCenters/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGlzdHJpYnV0aW9uQ2VudGVyc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/GBHar/source/repos/CSCSProofOfConcept/CSCSProofOfConcept/Visual Studio files/CSCSProofOfConcept/CSCSProofOfConcept/Pages/DistributionCenters/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGlzdHJpYnV0aW9uQ2VudGVyc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/GBHar/source/repos/CSCSProofOfConcept/CSCSProofOfConcept/Visual Studio files/CSCSProofOfConcept/CSCSProofOfConcept/Pages/DistributionCenters/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGlzdHJpYnV0aW9uQ2VudGVyc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/GBHar/source/repos/CSCSProofOfConcept/CSCSProofOfConcept/Visual Studio files/CSCSProofOfConcept/CSCSProofOfConcept/Pages/DistributionCenters/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGlzdHJpYnV0aW9uQ2VudGVyc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/GBHar/source/repos/CSCSProofOfConcept/CSCSProofOfConcept/Visual Studio files/CSCSProofOfConcept/CSCSProofOfConcept/Pages/DistributionCenters/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGlzdHJpYnV0aW9uQ2VudGVyc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/GBHar/source/repos/CSCSProofOfConcept/CSCSProofOfConcept/Visual Studio files/CSCSProofOfConcept/CSCSProofOfConcept/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -30,8 +58,48 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/GBHar/source/repos/CSCSProofOfConcept/CSCSProofOfConcept/Visual Studio files/CSCSProofOfConcept/CSCSProofOfConcept/Pages/Items/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSXRlbXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/GBHar/source/repos/CSCSProofOfConcept/CSCSProofOfConcept/Visual Studio files/CSCSProofOfConcept/CSCSProofOfConcept/Pages/Items/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSXRlbXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/GBHar/source/repos/CSCSProofOfConcept/CSCSProofOfConcept/Visual Studio files/CSCSProofOfConcept/CSCSProofOfConcept/Pages/Items/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSXRlbXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/GBHar/source/repos/CSCSProofOfConcept/CSCSProofOfConcept/Visual Studio files/CSCSProofOfConcept/CSCSProofOfConcept/Pages/Items/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSXRlbXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/GBHar/source/repos/CSCSProofOfConcept/CSCSProofOfConcept/Visual Studio files/CSCSProofOfConcept/CSCSProofOfConcept/Pages/Items/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSXRlbXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/GBHar/source/repos/CSCSProofOfConcept/CSCSProofOfConcept/Visual Studio files/CSCSProofOfConcept/CSCSProofOfConcept/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/GBHar/source/repos/CSCSProofOfConcept/CSCSProofOfConcept/Visual Studio files/CSCSProofOfConcept/CSCSProofOfConcept/Pages/Projects/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvamVjdHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/GBHar/source/repos/CSCSProofOfConcept/CSCSProofOfConcept/Visual Studio files/CSCSProofOfConcept/CSCSProofOfConcept/Pages/Projects/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvamVjdHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/GBHar/source/repos/CSCSProofOfConcept/CSCSProofOfConcept/Visual Studio files/CSCSProofOfConcept/CSCSProofOfConcept/Pages/Projects/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvamVjdHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/GBHar/source/repos/CSCSProofOfConcept/CSCSProofOfConcept/Visual Studio files/CSCSProofOfConcept/CSCSProofOfConcept/Pages/Projects/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvamVjdHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/GBHar/source/repos/CSCSProofOfConcept/CSCSProofOfConcept/Visual Studio files/CSCSProofOfConcept/CSCSProofOfConcept/Pages/Projects/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvamVjdHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/GBHar/source/repos/CSCSProofOfConcept/CSCSProofOfConcept/Visual Studio files/CSCSProofOfConcept/CSCSProofOfConcept/Pages/Shared/_ValidationScriptsPartial.cshtml]

@@ -1,7 +1,12 @@
+﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+using CSCSProofOfConcept.Data;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
+builder.Services.AddDbContext<CSCSProofOfConceptContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("CSCSProofOfConceptContext") ?? throw new InvalidOperationException("Connection string 'CSCSProofOfConceptContext' not found.")));
 
 var app = builder.Build();
 

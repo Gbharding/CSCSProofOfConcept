@@ -3,16 +3,148 @@
   "WorkspaceRootPath": "C:\\Users\\GBHar\\source\\repos\\CSCSProofOfConcept\\CSCSProofOfConcept\\Visual Studio files\\CSCSProofOfConcept\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{53478275-743A-4520-8148-6E96C9E833BE}|CSCSProofOfConcept\\CSCSProofOfConcept.csproj|c:\\users\\gbhar\\source\\repos\\cscsproofofconcept\\cscsproofofconcept\\visual studio files\\cscsproofofconcept\\cscsproofofconcept\\models\\distributioncenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{53478275-743A-4520-8148-6E96C9E833BE}|CSCSProofOfConcept\\CSCSProofOfConcept.csproj|solutionrelative:cscsproofofconcept\\models\\distributioncenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\GBHar\\source\\repos\\CSCSProofOfConcept\\CSCSProofOfConcept\\Visual Studio files\\CSCSProofOfConcept\\CSCSProofOfConcept\\Migrations\\20260114223046_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CSCSProofOfConcept\\Migrations\\20260114223046_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{53478275-743A-4520-8148-6E96C9E833BE}|CSCSProofOfConcept\\CSCSProofOfConcept.csproj|c:\\users\\gbhar\\source\\repos\\cscsproofofconcept\\cscsproofofconcept\\visual studio files\\cscsproofofconcept\\cscsproofofconcept\\models\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{53478275-743A-4520-8148-6E96C9E833BE}|CSCSProofOfConcept\\CSCSProofOfConcept.csproj|solutionrelative:cscsproofofconcept\\models\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{82BFBB12-8399-E468-564F-6FC172F0A6BB}|CSCSProofOfConcept\\CSCSProofOfConcept.csproj|c:\\users\\gbhar\\source\\repos\\cscsproofofconcept\\cscsproofofconcept\\visual studio files\\cscsproofofconcept\\cscsproofofconcept\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82BFBB12-8399-E468-564F-6FC172F0A6BB}|CSCSProofOfConcept\\CSCSProofOfConcept.csproj|solutionrelative:cscsproofofconcept\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{53478275-743A-4520-8148-6E96C9E833BE}|CSCSProofOfConcept\\CSCSProofOfConcept.csproj|c:\\users\\gbhar\\source\\repos\\cscsproofofconcept\\cscsproofofconcept\\visual studio files\\cscsproofofconcept\\cscsproofofconcept\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{53478275-743A-4520-8148-6E96C9E833BE}|CSCSProofOfConcept\\CSCSProofOfConcept.csproj|solutionrelative:cscsproofofconcept\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{82BFBB12-8399-E468-564F-6FC172F0A6BB}|CSCSProofOfConcept\\CSCSProofOfConcept.csproj|c:\\users\\gbhar\\source\\repos\\cscsproofofconcept\\cscsproofofconcept\\visual studio files\\cscsproofofconcept\\cscsproofofconcept\\pages\\projects\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82BFBB12-8399-E468-564F-6FC172F0A6BB}|CSCSProofOfConcept\\CSCSProofOfConcept.csproj|solutionrelative:cscsproofofconcept\\pages\\projects\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82BFBB12-8399-E468-564F-6FC172F0A6BB}|CSCSProofOfConcept\\CSCSProofOfConcept.csproj|c:\\users\\gbhar\\source\\repos\\cscsproofofconcept\\cscsproofofconcept\\visual studio files\\cscsproofofconcept\\cscsproofofconcept\\pages\\projects\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{82BFBB12-8399-E468-564F-6FC172F0A6BB}|CSCSProofOfConcept\\CSCSProofOfConcept.csproj|solutionrelative:cscsproofofconcept\\pages\\projects\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82BFBB12-8399-E468-564F-6FC172F0A6BB}|CSCSProofOfConcept\\CSCSProofOfConcept.csproj|c:\\users\\gbhar\\source\\repos\\cscsproofofconcept\\cscsproofofconcept\\visual studio files\\cscsproofofconcept\\cscsproofofconcept\\pages\\projects\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82BFBB12-8399-E468-564F-6FC172F0A6BB}|CSCSProofOfConcept\\CSCSProofOfConcept.csproj|solutionrelative:cscsproofofconcept\\pages\\projects\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82BFBB12-8399-E468-564F-6FC172F0A6BB}|CSCSProofOfConcept\\CSCSProofOfConcept.csproj|c:\\users\\gbhar\\source\\repos\\cscsproofofconcept\\cscsproofofconcept\\visual studio files\\cscsproofofconcept\\cscsproofofconcept\\pages\\projects\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{82BFBB12-8399-E468-564F-6FC172F0A6BB}|CSCSProofOfConcept\\CSCSProofOfConcept.csproj|solutionrelative:cscsproofofconcept\\pages\\projects\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82BFBB12-8399-E468-564F-6FC172F0A6BB}|CSCSProofOfConcept\\CSCSProofOfConcept.csproj|c:\\users\\gbhar\\source\\repos\\cscsproofofconcept\\cscsproofofconcept\\visual studio files\\cscsproofofconcept\\cscsproofofconcept\\pages\\projects\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82BFBB12-8399-E468-564F-6FC172F0A6BB}|CSCSProofOfConcept\\CSCSProofOfConcept.csproj|solutionrelative:cscsproofofconcept\\pages\\projects\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82BFBB12-8399-E468-564F-6FC172F0A6BB}|CSCSProofOfConcept\\CSCSProofOfConcept.csproj|c:\\users\\gbhar\\source\\repos\\cscsproofofconcept\\cscsproofofconcept\\visual studio files\\cscsproofofconcept\\cscsproofofconcept\\pages\\projects\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{82BFBB12-8399-E468-564F-6FC172F0A6BB}|CSCSProofOfConcept\\CSCSProofOfConcept.csproj|solutionrelative:cscsproofofconcept\\pages\\projects\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82BFBB12-8399-E468-564F-6FC172F0A6BB}|CSCSProofOfConcept\\CSCSProofOfConcept.csproj|c:\\users\\gbhar\\source\\repos\\cscsproofofconcept\\cscsproofofconcept\\visual studio files\\cscsproofofconcept\\cscsproofofconcept\\pages\\projects\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82BFBB12-8399-E468-564F-6FC172F0A6BB}|CSCSProofOfConcept\\CSCSProofOfConcept.csproj|solutionrelative:cscsproofofconcept\\pages\\projects\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82BFBB12-8399-E468-564F-6FC172F0A6BB}|CSCSProofOfConcept\\CSCSProofOfConcept.csproj|c:\\users\\gbhar\\source\\repos\\cscsproofofconcept\\cscsproofofconcept\\visual studio files\\cscsproofofconcept\\cscsproofofconcept\\pages\\projects\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{82BFBB12-8399-E468-564F-6FC172F0A6BB}|CSCSProofOfConcept\\CSCSProofOfConcept.csproj|solutionrelative:cscsproofofconcept\\pages\\projects\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82BFBB12-8399-E468-564F-6FC172F0A6BB}|CSCSProofOfConcept\\CSCSProofOfConcept.csproj|c:\\users\\gbhar\\source\\repos\\cscsproofofconcept\\cscsproofofconcept\\visual studio files\\cscsproofofconcept\\cscsproofofconcept\\pages\\projects\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82BFBB12-8399-E468-564F-6FC172F0A6BB}|CSCSProofOfConcept\\CSCSProofOfConcept.csproj|solutionrelative:cscsproofofconcept\\pages\\projects\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82BFBB12-8399-E468-564F-6FC172F0A6BB}|CSCSProofOfConcept\\CSCSProofOfConcept.csproj|c:\\users\\gbhar\\source\\repos\\cscsproofofconcept\\cscsproofofconcept\\visual studio files\\cscsproofofconcept\\cscsproofofconcept\\pages\\projects\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{82BFBB12-8399-E468-564F-6FC172F0A6BB}|CSCSProofOfConcept\\CSCSProofOfConcept.csproj|solutionrelative:cscsproofofconcept\\pages\\projects\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82BFBB12-8399-E468-564F-6FC172F0A6BB}|CSCSProofOfConcept\\CSCSProofOfConcept.csproj|c:\\users\\gbhar\\source\\repos\\cscsproofofconcept\\cscsproofofconcept\\visual studio files\\cscsproofofconcept\\cscsproofofconcept\\data\\cscsproofofconceptcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82BFBB12-8399-E468-564F-6FC172F0A6BB}|CSCSProofOfConcept\\CSCSProofOfConcept.csproj|solutionrelative:cscsproofofconcept\\data\\cscsproofofconceptcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82BFBB12-8399-E468-564F-6FC172F0A6BB}|CSCSProofOfConcept\\CSCSProofOfConcept.csproj|c:\\users\\gbhar\\source\\repos\\cscsproofofconcept\\cscsproofofconcept\\visual studio files\\cscsproofofconcept\\cscsproofofconcept\\pages\\items\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82BFBB12-8399-E468-564F-6FC172F0A6BB}|CSCSProofOfConcept\\CSCSProofOfConcept.csproj|solutionrelative:cscsproofofconcept\\pages\\items\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82BFBB12-8399-E468-564F-6FC172F0A6BB}|CSCSProofOfConcept\\CSCSProofOfConcept.csproj|c:\\users\\gbhar\\source\\repos\\cscsproofofconcept\\cscsproofofconcept\\visual studio files\\cscsproofofconcept\\cscsproofofconcept\\pages\\items\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{82BFBB12-8399-E468-564F-6FC172F0A6BB}|CSCSProofOfConcept\\CSCSProofOfConcept.csproj|solutionrelative:cscsproofofconcept\\pages\\items\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82BFBB12-8399-E468-564F-6FC172F0A6BB}|CSCSProofOfConcept\\CSCSProofOfConcept.csproj|c:\\users\\gbhar\\source\\repos\\cscsproofofconcept\\cscsproofofconcept\\visual studio files\\cscsproofofconcept\\cscsproofofconcept\\pages\\items\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82BFBB12-8399-E468-564F-6FC172F0A6BB}|CSCSProofOfConcept\\CSCSProofOfConcept.csproj|solutionrelative:cscsproofofconcept\\pages\\items\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82BFBB12-8399-E468-564F-6FC172F0A6BB}|CSCSProofOfConcept\\CSCSProofOfConcept.csproj|c:\\users\\gbhar\\source\\repos\\cscsproofofconcept\\cscsproofofconcept\\visual studio files\\cscsproofofconcept\\cscsproofofconcept\\pages\\items\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{82BFBB12-8399-E468-564F-6FC172F0A6BB}|CSCSProofOfConcept\\CSCSProofOfConcept.csproj|solutionrelative:cscsproofofconcept\\pages\\items\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82BFBB12-8399-E468-564F-6FC172F0A6BB}|CSCSProofOfConcept\\CSCSProofOfConcept.csproj|c:\\users\\gbhar\\source\\repos\\cscsproofofconcept\\cscsproofofconcept\\visual studio files\\cscsproofofconcept\\cscsproofofconcept\\pages\\items\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82BFBB12-8399-E468-564F-6FC172F0A6BB}|CSCSProofOfConcept\\CSCSProofOfConcept.csproj|solutionrelative:cscsproofofconcept\\pages\\items\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82BFBB12-8399-E468-564F-6FC172F0A6BB}|CSCSProofOfConcept\\CSCSProofOfConcept.csproj|c:\\users\\gbhar\\source\\repos\\cscsproofofconcept\\cscsproofofconcept\\visual studio files\\cscsproofofconcept\\cscsproofofconcept\\pages\\items\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{82BFBB12-8399-E468-564F-6FC172F0A6BB}|CSCSProofOfConcept\\CSCSProofOfConcept.csproj|solutionrelative:cscsproofofconcept\\pages\\items\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82BFBB12-8399-E468-564F-6FC172F0A6BB}|CSCSProofOfConcept\\CSCSProofOfConcept.csproj|c:\\users\\gbhar\\source\\repos\\cscsproofofconcept\\cscsproofofconcept\\visual studio files\\cscsproofofconcept\\cscsproofofconcept\\pages\\items\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82BFBB12-8399-E468-564F-6FC172F0A6BB}|CSCSProofOfConcept\\CSCSProofOfConcept.csproj|solutionrelative:cscsproofofconcept\\pages\\items\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82BFBB12-8399-E468-564F-6FC172F0A6BB}|CSCSProofOfConcept\\CSCSProofOfConcept.csproj|c:\\users\\gbhar\\source\\repos\\cscsproofofconcept\\cscsproofofconcept\\visual studio files\\cscsproofofconcept\\cscsproofofconcept\\pages\\items\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{82BFBB12-8399-E468-564F-6FC172F0A6BB}|CSCSProofOfConcept\\CSCSProofOfConcept.csproj|solutionrelative:cscsproofofconcept\\pages\\items\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82BFBB12-8399-E468-564F-6FC172F0A6BB}|CSCSProofOfConcept\\CSCSProofOfConcept.csproj|c:\\users\\gbhar\\source\\repos\\cscsproofofconcept\\cscsproofofconcept\\visual studio files\\cscsproofofconcept\\cscsproofofconcept\\pages\\items\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82BFBB12-8399-E468-564F-6FC172F0A6BB}|CSCSProofOfConcept\\CSCSProofOfConcept.csproj|solutionrelative:cscsproofofconcept\\pages\\items\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82BFBB12-8399-E468-564F-6FC172F0A6BB}|CSCSProofOfConcept\\CSCSProofOfConcept.csproj|c:\\users\\gbhar\\source\\repos\\cscsproofofconcept\\cscsproofofconcept\\visual studio files\\cscsproofofconcept\\cscsproofofconcept\\pages\\items\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{82BFBB12-8399-E468-564F-6FC172F0A6BB}|CSCSProofOfConcept\\CSCSProofOfConcept.csproj|solutionrelative:cscsproofofconcept\\pages\\items\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82BFBB12-8399-E468-564F-6FC172F0A6BB}|CSCSProofOfConcept\\CSCSProofOfConcept.csproj|c:\\users\\gbhar\\source\\repos\\cscsproofofconcept\\cscsproofofconcept\\visual studio files\\cscsproofofconcept\\cscsproofofconcept\\pages\\distributioncenters\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82BFBB12-8399-E468-564F-6FC172F0A6BB}|CSCSProofOfConcept\\CSCSProofOfConcept.csproj|solutionrelative:cscsproofofconcept\\pages\\distributioncenters\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82BFBB12-8399-E468-564F-6FC172F0A6BB}|CSCSProofOfConcept\\CSCSProofOfConcept.csproj|c:\\users\\gbhar\\source\\repos\\cscsproofofconcept\\cscsproofofconcept\\visual studio files\\cscsproofofconcept\\cscsproofofconcept\\pages\\distributioncenters\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{82BFBB12-8399-E468-564F-6FC172F0A6BB}|CSCSProofOfConcept\\CSCSProofOfConcept.csproj|solutionrelative:cscsproofofconcept\\pages\\distributioncenters\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82BFBB12-8399-E468-564F-6FC172F0A6BB}|CSCSProofOfConcept\\CSCSProofOfConcept.csproj|c:\\users\\gbhar\\source\\repos\\cscsproofofconcept\\cscsproofofconcept\\visual studio files\\cscsproofofconcept\\cscsproofofconcept\\pages\\distributioncenters\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82BFBB12-8399-E468-564F-6FC172F0A6BB}|CSCSProofOfConcept\\CSCSProofOfConcept.csproj|solutionrelative:cscsproofofconcept\\pages\\distributioncenters\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82BFBB12-8399-E468-564F-6FC172F0A6BB}|CSCSProofOfConcept\\CSCSProofOfConcept.csproj|c:\\users\\gbhar\\source\\repos\\cscsproofofconcept\\cscsproofofconcept\\visual studio files\\cscsproofofconcept\\cscsproofofconcept\\pages\\distributioncenters\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{82BFBB12-8399-E468-564F-6FC172F0A6BB}|CSCSProofOfConcept\\CSCSProofOfConcept.csproj|solutionrelative:cscsproofofconcept\\pages\\distributioncenters\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82BFBB12-8399-E468-564F-6FC172F0A6BB}|CSCSProofOfConcept\\CSCSProofOfConcept.csproj|c:\\users\\gbhar\\source\\repos\\cscsproofofconcept\\cscsproofofconcept\\visual studio files\\cscsproofofconcept\\cscsproofofconcept\\pages\\distributioncenters\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82BFBB12-8399-E468-564F-6FC172F0A6BB}|CSCSProofOfConcept\\CSCSProofOfConcept.csproj|solutionrelative:cscsproofofconcept\\pages\\distributioncenters\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82BFBB12-8399-E468-564F-6FC172F0A6BB}|CSCSProofOfConcept\\CSCSProofOfConcept.csproj|c:\\users\\gbhar\\source\\repos\\cscsproofofconcept\\cscsproofofconcept\\visual studio files\\cscsproofofconcept\\cscsproofofconcept\\pages\\distributioncenters\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{82BFBB12-8399-E468-564F-6FC172F0A6BB}|CSCSProofOfConcept\\CSCSProofOfConcept.csproj|solutionrelative:cscsproofofconcept\\pages\\distributioncenters\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82BFBB12-8399-E468-564F-6FC172F0A6BB}|CSCSProofOfConcept\\CSCSProofOfConcept.csproj|c:\\users\\gbhar\\source\\repos\\cscsproofofconcept\\cscsproofofconcept\\visual studio files\\cscsproofofconcept\\cscsproofofconcept\\pages\\distributioncenters\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82BFBB12-8399-E468-564F-6FC172F0A6BB}|CSCSProofOfConcept\\CSCSProofOfConcept.csproj|solutionrelative:cscsproofofconcept\\pages\\distributioncenters\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82BFBB12-8399-E468-564F-6FC172F0A6BB}|CSCSProofOfConcept\\CSCSProofOfConcept.csproj|c:\\users\\gbhar\\source\\repos\\cscsproofofconcept\\cscsproofofconcept\\visual studio files\\cscsproofofconcept\\cscsproofofconcept\\pages\\distributioncenters\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{82BFBB12-8399-E468-564F-6FC172F0A6BB}|CSCSProofOfConcept\\CSCSProofOfConcept.csproj|solutionrelative:cscsproofofconcept\\pages\\distributioncenters\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82BFBB12-8399-E468-564F-6FC172F0A6BB}|CSCSProofOfConcept\\CSCSProofOfConcept.csproj|c:\\users\\gbhar\\source\\repos\\cscsproofofconcept\\cscsproofofconcept\\visual studio files\\cscsproofofconcept\\cscsproofofconcept\\pages\\distributioncenters\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82BFBB12-8399-E468-564F-6FC172F0A6BB}|CSCSProofOfConcept\\CSCSProofOfConcept.csproj|solutionrelative:cscsproofofconcept\\pages\\distributioncenters\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82BFBB12-8399-E468-564F-6FC172F0A6BB}|CSCSProofOfConcept\\CSCSProofOfConcept.csproj|c:\\users\\gbhar\\source\\repos\\cscsproofofconcept\\cscsproofofconcept\\visual studio files\\cscsproofofconcept\\cscsproofofconcept\\pages\\distributioncenters\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{82BFBB12-8399-E468-564F-6FC172F0A6BB}|CSCSProofOfConcept\\CSCSProofOfConcept.csproj|solutionrelative:cscsproofofconcept\\pages\\distributioncenters\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82BFBB12-8399-E468-564F-6FC172F0A6BB}|CSCSProofOfConcept\\CSCSProofOfConcept.csproj|c:\\users\\gbhar\\source\\repos\\cscsproofofconcept\\cscsproofofconcept\\visual studio files\\cscsproofofconcept\\cscsproofofconcept\\models\\distributioncenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82BFBB12-8399-E468-564F-6FC172F0A6BB}|CSCSProofOfConcept\\CSCSProofOfConcept.csproj|solutionrelative:cscsproofofconcept\\models\\distributioncenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82BFBB12-8399-E468-564F-6FC172F0A6BB}|CSCSProofOfConcept\\CSCSProofOfConcept.csproj|c:\\users\\gbhar\\source\\repos\\cscsproofofconcept\\cscsproofofconcept\\visual studio files\\cscsproofofconcept\\cscsproofofconcept\\models\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82BFBB12-8399-E468-564F-6FC172F0A6BB}|CSCSProofOfConcept\\CSCSProofOfConcept.csproj|solutionrelative:cscsproofofconcept\\models\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82BFBB12-8399-E468-564F-6FC172F0A6BB}|CSCSProofOfConcept\\CSCSProofOfConcept.csproj|c:\\users\\gbhar\\source\\repos\\cscsproofofconcept\\cscsproofofconcept\\visual studio files\\cscsproofofconcept\\cscsproofofconcept\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82BFBB12-8399-E468-564F-6FC172F0A6BB}|CSCSProofOfConcept\\CSCSProofOfConcept.csproj|solutionrelative:cscsproofofconcept\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,11 +154,440 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20260114223046_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\GBHar\\source\\repos\\CSCSProofOfConcept\\CSCSProofOfConcept\\Visual Studio files\\CSCSProofOfConcept\\CSCSProofOfConcept\\Migrations\\20260114223046_InitialCreate.cs",
+              "RelativeDocumentMoniker": "CSCSProofOfConcept\\Migrations\\20260114223046_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\GBHar\\source\\repos\\CSCSProofOfConcept\\CSCSProofOfConcept\\Visual Studio files\\CSCSProofOfConcept\\CSCSProofOfConcept\\Migrations\\20260114223046_InitialCreate.cs",
+              "RelativeToolTip": "CSCSProofOfConcept\\Migrations\\20260114223046_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-14T22:30:46.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\GBHar\\source\\repos\\CSCSProofOfConcept\\CSCSProofOfConcept\\Visual Studio files\\CSCSProofOfConcept\\CSCSProofOfConcept\\Pages\\Projects\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "CSCSProofOfConcept\\Pages\\Projects\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\GBHar\\source\\repos\\CSCSProofOfConcept\\CSCSProofOfConcept\\Visual Studio files\\CSCSProofOfConcept\\CSCSProofOfConcept\\Pages\\Projects\\Index.cshtml.cs",
+              "RelativeToolTip": "CSCSProofOfConcept\\Pages\\Projects\\Index.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-14T22:30:04.634Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\GBHar\\source\\repos\\CSCSProofOfConcept\\CSCSProofOfConcept\\Visual Studio files\\CSCSProofOfConcept\\CSCSProofOfConcept\\Pages\\Projects\\Index.cshtml",
+              "RelativeDocumentMoniker": "CSCSProofOfConcept\\Pages\\Projects\\Index.cshtml",
+              "ToolTip": "C:\\Users\\GBHar\\source\\repos\\CSCSProofOfConcept\\CSCSProofOfConcept\\Visual Studio files\\CSCSProofOfConcept\\CSCSProofOfConcept\\Pages\\Projects\\Index.cshtml",
+              "RelativeToolTip": "CSCSProofOfConcept\\Pages\\Projects\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-14T22:30:04.567Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Delete.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\GBHar\\source\\repos\\CSCSProofOfConcept\\CSCSProofOfConcept\\Visual Studio files\\CSCSProofOfConcept\\CSCSProofOfConcept\\Pages\\Projects\\Delete.cshtml.cs",
+              "RelativeDocumentMoniker": "CSCSProofOfConcept\\Pages\\Projects\\Delete.cshtml.cs",
+              "ToolTip": "C:\\Users\\GBHar\\source\\repos\\CSCSProofOfConcept\\CSCSProofOfConcept\\Visual Studio files\\CSCSProofOfConcept\\CSCSProofOfConcept\\Pages\\Projects\\Delete.cshtml.cs",
+              "RelativeToolTip": "CSCSProofOfConcept\\Pages\\Projects\\Delete.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-14T22:30:04.496Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\GBHar\\source\\repos\\CSCSProofOfConcept\\CSCSProofOfConcept\\Visual Studio files\\CSCSProofOfConcept\\CSCSProofOfConcept\\Pages\\Projects\\Delete.cshtml",
+              "RelativeDocumentMoniker": "CSCSProofOfConcept\\Pages\\Projects\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\GBHar\\source\\repos\\CSCSProofOfConcept\\CSCSProofOfConcept\\Visual Studio files\\CSCSProofOfConcept\\CSCSProofOfConcept\\Pages\\Projects\\Delete.cshtml",
+              "RelativeToolTip": "CSCSProofOfConcept\\Pages\\Projects\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-14T22:30:04.422Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Details.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\GBHar\\source\\repos\\CSCSProofOfConcept\\CSCSProofOfConcept\\Visual Studio files\\CSCSProofOfConcept\\CSCSProofOfConcept\\Pages\\Projects\\Details.cshtml.cs",
+              "RelativeDocumentMoniker": "CSCSProofOfConcept\\Pages\\Projects\\Details.cshtml.cs",
+              "ToolTip": "C:\\Users\\GBHar\\source\\repos\\CSCSProofOfConcept\\CSCSProofOfConcept\\Visual Studio files\\CSCSProofOfConcept\\CSCSProofOfConcept\\Pages\\Projects\\Details.cshtml.cs",
+              "RelativeToolTip": "CSCSProofOfConcept\\Pages\\Projects\\Details.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-14T22:30:04.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\GBHar\\source\\repos\\CSCSProofOfConcept\\CSCSProofOfConcept\\Visual Studio files\\CSCSProofOfConcept\\CSCSProofOfConcept\\Pages\\Projects\\Details.cshtml",
+              "RelativeDocumentMoniker": "CSCSProofOfConcept\\Pages\\Projects\\Details.cshtml",
+              "ToolTip": "C:\\Users\\GBHar\\source\\repos\\CSCSProofOfConcept\\CSCSProofOfConcept\\Visual Studio files\\CSCSProofOfConcept\\CSCSProofOfConcept\\Pages\\Projects\\Details.cshtml",
+              "RelativeToolTip": "CSCSProofOfConcept\\Pages\\Projects\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-14T22:30:04.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Edit.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\GBHar\\source\\repos\\CSCSProofOfConcept\\CSCSProofOfConcept\\Visual Studio files\\CSCSProofOfConcept\\CSCSProofOfConcept\\Pages\\Projects\\Edit.cshtml.cs",
+              "RelativeDocumentMoniker": "CSCSProofOfConcept\\Pages\\Projects\\Edit.cshtml.cs",
+              "ToolTip": "C:\\Users\\GBHar\\source\\repos\\CSCSProofOfConcept\\CSCSProofOfConcept\\Visual Studio files\\CSCSProofOfConcept\\CSCSProofOfConcept\\Pages\\Projects\\Edit.cshtml.cs",
+              "RelativeToolTip": "CSCSProofOfConcept\\Pages\\Projects\\Edit.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-14T22:30:04.213Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\GBHar\\source\\repos\\CSCSProofOfConcept\\CSCSProofOfConcept\\Visual Studio files\\CSCSProofOfConcept\\CSCSProofOfConcept\\Pages\\Projects\\Edit.cshtml",
+              "RelativeDocumentMoniker": "CSCSProofOfConcept\\Pages\\Projects\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\GBHar\\source\\repos\\CSCSProofOfConcept\\CSCSProofOfConcept\\Visual Studio files\\CSCSProofOfConcept\\CSCSProofOfConcept\\Pages\\Projects\\Edit.cshtml",
+              "RelativeToolTip": "CSCSProofOfConcept\\Pages\\Projects\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-14T22:30:04.141Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\GBHar\\source\\repos\\CSCSProofOfConcept\\CSCSProofOfConcept\\Visual Studio files\\CSCSProofOfConcept\\CSCSProofOfConcept\\Program.cs",
+              "RelativeDocumentMoniker": "CSCSProofOfConcept\\Program.cs",
+              "ToolTip": "C:\\Users\\GBHar\\source\\repos\\CSCSProofOfConcept\\CSCSProofOfConcept\\Visual Studio files\\CSCSProofOfConcept\\CSCSProofOfConcept\\Program.cs",
+              "RelativeToolTip": "CSCSProofOfConcept\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-14T22:28:38.657Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Create.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\GBHar\\source\\repos\\CSCSProofOfConcept\\CSCSProofOfConcept\\Visual Studio files\\CSCSProofOfConcept\\CSCSProofOfConcept\\Pages\\Projects\\Create.cshtml.cs",
+              "RelativeDocumentMoniker": "CSCSProofOfConcept\\Pages\\Projects\\Create.cshtml.cs",
+              "ToolTip": "C:\\Users\\GBHar\\source\\repos\\CSCSProofOfConcept\\CSCSProofOfConcept\\Visual Studio files\\CSCSProofOfConcept\\CSCSProofOfConcept\\Pages\\Projects\\Create.cshtml.cs",
+              "RelativeToolTip": "CSCSProofOfConcept\\Pages\\Projects\\Create.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-14T22:30:04.069Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\GBHar\\source\\repos\\CSCSProofOfConcept\\CSCSProofOfConcept\\Visual Studio files\\CSCSProofOfConcept\\CSCSProofOfConcept\\Pages\\Projects\\Create.cshtml",
+              "RelativeDocumentMoniker": "CSCSProofOfConcept\\Pages\\Projects\\Create.cshtml",
+              "ToolTip": "C:\\Users\\GBHar\\source\\repos\\CSCSProofOfConcept\\CSCSProofOfConcept\\Visual Studio files\\CSCSProofOfConcept\\CSCSProofOfConcept\\Pages\\Projects\\Create.cshtml",
+              "RelativeToolTip": "CSCSProofOfConcept\\Pages\\Projects\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-14T22:30:03.997Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\GBHar\\source\\repos\\CSCSProofOfConcept\\CSCSProofOfConcept\\Visual Studio files\\CSCSProofOfConcept\\CSCSProofOfConcept\\Pages\\Items\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "CSCSProofOfConcept\\Pages\\Items\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\GBHar\\source\\repos\\CSCSProofOfConcept\\CSCSProofOfConcept\\Visual Studio files\\CSCSProofOfConcept\\CSCSProofOfConcept\\Pages\\Items\\Index.cshtml.cs",
+              "RelativeToolTip": "CSCSProofOfConcept\\Pages\\Items\\Index.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-14T22:29:26.684Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\GBHar\\source\\repos\\CSCSProofOfConcept\\CSCSProofOfConcept\\Visual Studio files\\CSCSProofOfConcept\\CSCSProofOfConcept\\Pages\\Items\\Index.cshtml",
+              "RelativeDocumentMoniker": "CSCSProofOfConcept\\Pages\\Items\\Index.cshtml",
+              "ToolTip": "C:\\Users\\GBHar\\source\\repos\\CSCSProofOfConcept\\CSCSProofOfConcept\\Visual Studio files\\CSCSProofOfConcept\\CSCSProofOfConcept\\Pages\\Items\\Index.cshtml",
+              "RelativeToolTip": "CSCSProofOfConcept\\Pages\\Items\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-14T22:29:26.549Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Delete.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\GBHar\\source\\repos\\CSCSProofOfConcept\\CSCSProofOfConcept\\Visual Studio files\\CSCSProofOfConcept\\CSCSProofOfConcept\\Pages\\Items\\Delete.cshtml.cs",
+              "RelativeDocumentMoniker": "CSCSProofOfConcept\\Pages\\Items\\Delete.cshtml.cs",
+              "ToolTip": "C:\\Users\\GBHar\\source\\repos\\CSCSProofOfConcept\\CSCSProofOfConcept\\Visual Studio files\\CSCSProofOfConcept\\CSCSProofOfConcept\\Pages\\Items\\Delete.cshtml.cs",
+              "RelativeToolTip": "CSCSProofOfConcept\\Pages\\Items\\Delete.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-14T22:29:26.478Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\GBHar\\source\\repos\\CSCSProofOfConcept\\CSCSProofOfConcept\\Visual Studio files\\CSCSProofOfConcept\\CSCSProofOfConcept\\Pages\\Items\\Delete.cshtml",
+              "RelativeDocumentMoniker": "CSCSProofOfConcept\\Pages\\Items\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\GBHar\\source\\repos\\CSCSProofOfConcept\\CSCSProofOfConcept\\Visual Studio files\\CSCSProofOfConcept\\CSCSProofOfConcept\\Pages\\Items\\Delete.cshtml",
+              "RelativeToolTip": "CSCSProofOfConcept\\Pages\\Items\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-14T22:29:26.415Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Details.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\GBHar\\source\\repos\\CSCSProofOfConcept\\CSCSProofOfConcept\\Visual Studio files\\CSCSProofOfConcept\\CSCSProofOfConcept\\Pages\\Items\\Details.cshtml.cs",
+              "RelativeDocumentMoniker": "CSCSProofOfConcept\\Pages\\Items\\Details.cshtml.cs",
+              "ToolTip": "C:\\Users\\GBHar\\source\\repos\\CSCSProofOfConcept\\CSCSProofOfConcept\\Visual Studio files\\CSCSProofOfConcept\\CSCSProofOfConcept\\Pages\\Items\\Details.cshtml.cs",
+              "RelativeToolTip": "CSCSProofOfConcept\\Pages\\Items\\Details.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-14T22:29:26.347Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\GBHar\\source\\repos\\CSCSProofOfConcept\\CSCSProofOfConcept\\Visual Studio files\\CSCSProofOfConcept\\CSCSProofOfConcept\\Pages\\Items\\Details.cshtml",
+              "RelativeDocumentMoniker": "CSCSProofOfConcept\\Pages\\Items\\Details.cshtml",
+              "ToolTip": "C:\\Users\\GBHar\\source\\repos\\CSCSProofOfConcept\\CSCSProofOfConcept\\Visual Studio files\\CSCSProofOfConcept\\CSCSProofOfConcept\\Pages\\Items\\Details.cshtml",
+              "RelativeToolTip": "CSCSProofOfConcept\\Pages\\Items\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-14T22:29:26.281Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Edit.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\GBHar\\source\\repos\\CSCSProofOfConcept\\CSCSProofOfConcept\\Visual Studio files\\CSCSProofOfConcept\\CSCSProofOfConcept\\Pages\\Items\\Edit.cshtml.cs",
+              "RelativeDocumentMoniker": "CSCSProofOfConcept\\Pages\\Items\\Edit.cshtml.cs",
+              "ToolTip": "C:\\Users\\GBHar\\source\\repos\\CSCSProofOfConcept\\CSCSProofOfConcept\\Visual Studio files\\CSCSProofOfConcept\\CSCSProofOfConcept\\Pages\\Items\\Edit.cshtml.cs",
+              "RelativeToolTip": "CSCSProofOfConcept\\Pages\\Items\\Edit.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-14T22:29:26.211Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\GBHar\\source\\repos\\CSCSProofOfConcept\\CSCSProofOfConcept\\Visual Studio files\\CSCSProofOfConcept\\CSCSProofOfConcept\\Pages\\Items\\Edit.cshtml",
+              "RelativeDocumentMoniker": "CSCSProofOfConcept\\Pages\\Items\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\GBHar\\source\\repos\\CSCSProofOfConcept\\CSCSProofOfConcept\\Visual Studio files\\CSCSProofOfConcept\\CSCSProofOfConcept\\Pages\\Items\\Edit.cshtml",
+              "RelativeToolTip": "CSCSProofOfConcept\\Pages\\Items\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-14T22:29:26.141Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CSCSProofOfConceptContext.cs",
+              "DocumentMoniker": "C:\\Users\\GBHar\\source\\repos\\CSCSProofOfConcept\\CSCSProofOfConcept\\Visual Studio files\\CSCSProofOfConcept\\CSCSProofOfConcept\\Data\\CSCSProofOfConceptContext.cs",
+              "RelativeDocumentMoniker": "CSCSProofOfConcept\\Data\\CSCSProofOfConceptContext.cs",
+              "ToolTip": "C:\\Users\\GBHar\\source\\repos\\CSCSProofOfConcept\\CSCSProofOfConcept\\Visual Studio files\\CSCSProofOfConcept\\CSCSProofOfConcept\\Data\\CSCSProofOfConceptContext.cs",
+              "RelativeToolTip": "CSCSProofOfConcept\\Data\\CSCSProofOfConceptContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-14T22:28:38.551Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Create.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\GBHar\\source\\repos\\CSCSProofOfConcept\\CSCSProofOfConcept\\Visual Studio files\\CSCSProofOfConcept\\CSCSProofOfConcept\\Pages\\Items\\Create.cshtml.cs",
+              "RelativeDocumentMoniker": "CSCSProofOfConcept\\Pages\\Items\\Create.cshtml.cs",
+              "ToolTip": "C:\\Users\\GBHar\\source\\repos\\CSCSProofOfConcept\\CSCSProofOfConcept\\Visual Studio files\\CSCSProofOfConcept\\CSCSProofOfConcept\\Pages\\Items\\Create.cshtml.cs",
+              "RelativeToolTip": "CSCSProofOfConcept\\Pages\\Items\\Create.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-14T22:29:26.066Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\GBHar\\source\\repos\\CSCSProofOfConcept\\CSCSProofOfConcept\\Visual Studio files\\CSCSProofOfConcept\\CSCSProofOfConcept\\Pages\\Items\\Create.cshtml",
+              "RelativeDocumentMoniker": "CSCSProofOfConcept\\Pages\\Items\\Create.cshtml",
+              "ToolTip": "C:\\Users\\GBHar\\source\\repos\\CSCSProofOfConcept\\CSCSProofOfConcept\\Visual Studio files\\CSCSProofOfConcept\\CSCSProofOfConcept\\Pages\\Items\\Create.cshtml",
+              "RelativeToolTip": "CSCSProofOfConcept\\Pages\\Items\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-14T22:29:25.994Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\GBHar\\source\\repos\\CSCSProofOfConcept\\CSCSProofOfConcept\\Visual Studio files\\CSCSProofOfConcept\\CSCSProofOfConcept\\Pages\\DistributionCenters\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "CSCSProofOfConcept\\Pages\\DistributionCenters\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\GBHar\\source\\repos\\CSCSProofOfConcept\\CSCSProofOfConcept\\Visual Studio files\\CSCSProofOfConcept\\CSCSProofOfConcept\\Pages\\DistributionCenters\\Index.cshtml.cs",
+              "RelativeToolTip": "CSCSProofOfConcept\\Pages\\DistributionCenters\\Index.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-14T22:28:39.564Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\GBHar\\source\\repos\\CSCSProofOfConcept\\CSCSProofOfConcept\\Visual Studio files\\CSCSProofOfConcept\\CSCSProofOfConcept\\Pages\\DistributionCenters\\Index.cshtml",
+              "RelativeDocumentMoniker": "CSCSProofOfConcept\\Pages\\DistributionCenters\\Index.cshtml",
+              "ToolTip": "C:\\Users\\GBHar\\source\\repos\\CSCSProofOfConcept\\CSCSProofOfConcept\\Visual Studio files\\CSCSProofOfConcept\\CSCSProofOfConcept\\Pages\\DistributionCenters\\Index.cshtml",
+              "RelativeToolTip": "CSCSProofOfConcept\\Pages\\DistributionCenters\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-14T22:28:39.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Delete.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\GBHar\\source\\repos\\CSCSProofOfConcept\\CSCSProofOfConcept\\Visual Studio files\\CSCSProofOfConcept\\CSCSProofOfConcept\\Pages\\DistributionCenters\\Delete.cshtml.cs",
+              "RelativeDocumentMoniker": "CSCSProofOfConcept\\Pages\\DistributionCenters\\Delete.cshtml.cs",
+              "ToolTip": "C:\\Users\\GBHar\\source\\repos\\CSCSProofOfConcept\\CSCSProofOfConcept\\Visual Studio files\\CSCSProofOfConcept\\CSCSProofOfConcept\\Pages\\DistributionCenters\\Delete.cshtml.cs",
+              "RelativeToolTip": "CSCSProofOfConcept\\Pages\\DistributionCenters\\Delete.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-14T22:28:39.423Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\GBHar\\source\\repos\\CSCSProofOfConcept\\CSCSProofOfConcept\\Visual Studio files\\CSCSProofOfConcept\\CSCSProofOfConcept\\Pages\\DistributionCenters\\Delete.cshtml",
+              "RelativeDocumentMoniker": "CSCSProofOfConcept\\Pages\\DistributionCenters\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\GBHar\\source\\repos\\CSCSProofOfConcept\\CSCSProofOfConcept\\Visual Studio files\\CSCSProofOfConcept\\CSCSProofOfConcept\\Pages\\DistributionCenters\\Delete.cshtml",
+              "RelativeToolTip": "CSCSProofOfConcept\\Pages\\DistributionCenters\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-14T22:28:39.358Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Details.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\GBHar\\source\\repos\\CSCSProofOfConcept\\CSCSProofOfConcept\\Visual Studio files\\CSCSProofOfConcept\\CSCSProofOfConcept\\Pages\\DistributionCenters\\Details.cshtml.cs",
+              "RelativeDocumentMoniker": "CSCSProofOfConcept\\Pages\\DistributionCenters\\Details.cshtml.cs",
+              "ToolTip": "C:\\Users\\GBHar\\source\\repos\\CSCSProofOfConcept\\CSCSProofOfConcept\\Visual Studio files\\CSCSProofOfConcept\\CSCSProofOfConcept\\Pages\\DistributionCenters\\Details.cshtml.cs",
+              "RelativeToolTip": "CSCSProofOfConcept\\Pages\\DistributionCenters\\Details.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-14T22:28:39.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\GBHar\\source\\repos\\CSCSProofOfConcept\\CSCSProofOfConcept\\Visual Studio files\\CSCSProofOfConcept\\CSCSProofOfConcept\\Pages\\DistributionCenters\\Details.cshtml",
+              "RelativeDocumentMoniker": "CSCSProofOfConcept\\Pages\\DistributionCenters\\Details.cshtml",
+              "ToolTip": "C:\\Users\\GBHar\\source\\repos\\CSCSProofOfConcept\\CSCSProofOfConcept\\Visual Studio files\\CSCSProofOfConcept\\CSCSProofOfConcept\\Pages\\DistributionCenters\\Details.cshtml",
+              "RelativeToolTip": "CSCSProofOfConcept\\Pages\\DistributionCenters\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-14T22:28:39.222Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Edit.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\GBHar\\source\\repos\\CSCSProofOfConcept\\CSCSProofOfConcept\\Visual Studio files\\CSCSProofOfConcept\\CSCSProofOfConcept\\Pages\\DistributionCenters\\Edit.cshtml.cs",
+              "RelativeDocumentMoniker": "CSCSProofOfConcept\\Pages\\DistributionCenters\\Edit.cshtml.cs",
+              "ToolTip": "C:\\Users\\GBHar\\source\\repos\\CSCSProofOfConcept\\CSCSProofOfConcept\\Visual Studio files\\CSCSProofOfConcept\\CSCSProofOfConcept\\Pages\\DistributionCenters\\Edit.cshtml.cs",
+              "RelativeToolTip": "CSCSProofOfConcept\\Pages\\DistributionCenters\\Edit.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-14T22:28:39.153Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\GBHar\\source\\repos\\CSCSProofOfConcept\\CSCSProofOfConcept\\Visual Studio files\\CSCSProofOfConcept\\CSCSProofOfConcept\\Pages\\DistributionCenters\\Edit.cshtml",
+              "RelativeDocumentMoniker": "CSCSProofOfConcept\\Pages\\DistributionCenters\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\GBHar\\source\\repos\\CSCSProofOfConcept\\CSCSProofOfConcept\\Visual Studio files\\CSCSProofOfConcept\\CSCSProofOfConcept\\Pages\\DistributionCenters\\Edit.cshtml",
+              "RelativeToolTip": "CSCSProofOfConcept\\Pages\\DistributionCenters\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-14T22:28:39.082Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Create.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\GBHar\\source\\repos\\CSCSProofOfConcept\\CSCSProofOfConcept\\Visual Studio files\\CSCSProofOfConcept\\CSCSProofOfConcept\\Pages\\DistributionCenters\\Create.cshtml.cs",
+              "RelativeDocumentMoniker": "CSCSProofOfConcept\\Pages\\DistributionCenters\\Create.cshtml.cs",
+              "ToolTip": "C:\\Users\\GBHar\\source\\repos\\CSCSProofOfConcept\\CSCSProofOfConcept\\Visual Studio files\\CSCSProofOfConcept\\CSCSProofOfConcept\\Pages\\DistributionCenters\\Create.cshtml.cs",
+              "RelativeToolTip": "CSCSProofOfConcept\\Pages\\DistributionCenters\\Create.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-14T22:28:39.006Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\GBHar\\source\\repos\\CSCSProofOfConcept\\CSCSProofOfConcept\\Visual Studio files\\CSCSProofOfConcept\\CSCSProofOfConcept\\Pages\\DistributionCenters\\Create.cshtml",
+              "RelativeDocumentMoniker": "CSCSProofOfConcept\\Pages\\DistributionCenters\\Create.cshtml",
+              "ToolTip": "C:\\Users\\GBHar\\source\\repos\\CSCSProofOfConcept\\CSCSProofOfConcept\\Visual Studio files\\CSCSProofOfConcept\\CSCSProofOfConcept\\Pages\\DistributionCenters\\Create.cshtml",
+              "RelativeToolTip": "CSCSProofOfConcept\\Pages\\DistributionCenters\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-14T22:28:38.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
               "Title": "Project.cs",
               "DocumentMoniker": "C:\\Users\\GBHar\\source\\repos\\CSCSProofOfConcept\\CSCSProofOfConcept\\Visual Studio files\\CSCSProofOfConcept\\CSCSProofOfConcept\\Models\\Project.cs",
               "RelativeDocumentMoniker": "CSCSProofOfConcept\\Models\\Project.cs",
@@ -34,12 +595,11 @@
               "RelativeToolTip": "CSCSProofOfConcept\\Models\\Project.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAQwBsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-14T21:42:28.499Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-14T21:42:28.499Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 35,
               "Title": "Item.cs",
               "DocumentMoniker": "C:\\Users\\GBHar\\source\\repos\\CSCSProofOfConcept\\CSCSProofOfConcept\\Visual Studio files\\CSCSProofOfConcept\\CSCSProofOfConcept\\Models\\Item.cs",
               "RelativeDocumentMoniker": "CSCSProofOfConcept\\Models\\Item.cs",
@@ -47,18 +607,17 @@
               "RelativeToolTip": "CSCSProofOfConcept\\Models\\Item.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-14T21:41:50.841Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-14T21:41:50.841Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 33,
               "Title": "DistributionCenter.cs",
               "DocumentMoniker": "C:\\Users\\GBHar\\source\\repos\\CSCSProofOfConcept\\CSCSProofOfConcept\\Visual Studio files\\CSCSProofOfConcept\\CSCSProofOfConcept\\Models\\DistributionCenter.cs",
               "RelativeDocumentMoniker": "CSCSProofOfConcept\\Models\\DistributionCenter.cs",
               "ToolTip": "C:\\Users\\GBHar\\source\\repos\\CSCSProofOfConcept\\CSCSProofOfConcept\\Visual Studio files\\CSCSProofOfConcept\\CSCSProofOfConcept\\Models\\DistributionCenter.cs",
               "RelativeToolTip": "CSCSProofOfConcept\\Models\\DistributionCenter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-14T21:41:22.195Z",
               "EditorCaption": ""
