@@ -28,7 +28,9 @@ namespace CSCSProofOfConcept.Pages.Items
                 return NotFound();
             }
 
-            var item = await _context.Item.FirstOrDefaultAsync(m => m.Id == id);
+            var item = await _context.Item
+                .Include(m => m.DistributionCenter)
+                .FirstOrDefaultAsync(m => m.Id == id);
 
             if (item is not null)
             {

@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Microsoft.EntityFrameworkCore.Metadata.Conventions;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace CSCSProofOfConcept.Models
@@ -16,6 +17,6 @@ namespace CSCSProofOfConcept.Models
         public string Specifications { get; set; }
 
         public int DistributionCenterId { get; set; }
-        public DistributionCenter DistributionCenter { get; set; } //When this isn't nullable, it won't save but when it is it won't populate it
+        public DistributionCenter? DistributionCenter { get; set; } 
     }
 }

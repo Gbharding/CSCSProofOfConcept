@@ -30,6 +30,12 @@
         <dd class="col-sm-10">
             @Html.DisplayFor(model => model.Item.Specifications)
         </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Item.DistributionCenter)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Item.DistributionCenter.Name)
+        </dd>
     </dl>
     
     <form method="post">

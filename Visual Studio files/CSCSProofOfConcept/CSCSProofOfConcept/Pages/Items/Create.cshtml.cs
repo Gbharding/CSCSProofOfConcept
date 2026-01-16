@@ -36,7 +36,7 @@ namespace CSCSProofOfConcept.Pages.Items
             if (await TryUpdateModelAsync<Item>(
                  emptyItem,
                  "item",
-                 s => s.Id, s => s.Name, s => s.IsActive, s => s.Specifications, s => s.DistributionCenter, s => s.DistributionCenterId))
+                 s => s.Id, s => s.Name, s => s.IsActive, s => s.Specifications, s => s.DistributionCenterId))
             {
                 _context.Item.Add(emptyItem);
                 await _context.SaveChangesAsync();

@@ -15,7 +15,10 @@ namespace CSCSProofOfConcept.Models
 
         [Required]
         public string Name { get; set; }
+
+        public int? ItemId { get; set; }
         public Item? Item { get; set; }
+
         public PrjType PrjType { get; set; }
         public int PrjStage { get; set; }
         public string? OldSpec { get; set; }

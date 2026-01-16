@@ -20,6 +20,9 @@
                 @Html.DisplayNameFor(model => model.Project[0].PrjType)
             </th>
             <th>
+                @Html.DisplayNameFor(model => model.Project[0].Item)
+            </th>
+            <th>
                 @Html.DisplayNameFor(model => model.Project[0].PrjStage)
             </th>
             <th>
@@ -48,6 +51,9 @@
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.PrjType)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Item.Name)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.PrjStage)

@@ -23,7 +23,9 @@ namespace CSCSProofOfConcept.Pages.Projects
 
         public async Task OnGetAsync()
         {
-            Project = await _context.Project.ToListAsync();
+            Project = await _context.Project
+                .Include(i => i.Item)
+                .ToListAsync();
         }
     }
 }

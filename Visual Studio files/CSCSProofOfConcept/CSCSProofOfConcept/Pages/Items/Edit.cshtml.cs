@@ -11,7 +11,7 @@ using CSCSProofOfConcept.Models;
 
 namespace CSCSProofOfConcept.Pages.Items
 {
-    public class EditModel : PageModel
+    public class EditModel : DCNamePageModel
     {
         private readonly CSCSProofOfConcept.Data.CSCSProofOfConceptContext _context;
 
@@ -30,43 +30,45 @@ namespace CSCSProofOfConcept.Pages.Items
                 return NotFound();
             }
 
-            var item =  await _context.Item.FirstOrDefaultAsync(m => m.Id == id);
+            var item =  await _context.Item
+                .Include(m => m.DistributionCenter)
+                .FirstOrDefaultAsync(m => m.Id == id);
             if (item == null)
             {
                 return NotFound();
             }
             Item = item;
+
+            PopulateDCDropDownList(_context, Item.DistributionCenterId);
             return Page();
         }
 
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more information, see https://aka.ms/RazorPagesCRUD.
-        public async Task<IActionResult> OnPostAsync()
+        public async Task<IActionResult> OnPostAsync(int? id)
         {
-            if (!ModelState.IsValid)
+            if (id == null)
             {
-                return Page();
+                return NotFound(); 
             }
 
-            _context.Attach(Item).State = EntityState.Modified;
+            var itemToUpdate = await _context.Item.FindAsync(id);
 
-            try
+            if (itemToUpdate == null)
+            {
+                return NotFound();
+            }
+
+            if (await TryUpdateModelAsync<Item>(
+                itemToUpdate,
+                "item",
+                s => s.Id, s => s.Name, s => s.IsActive, s => s.Specifications, s => s.DistributionCenterId))
             {
                 await _context.SaveChangesAsync();
-            }
-            catch (DbUpdateConcurrencyException)
-            {
-                if (!ItemExists(Item.Id))
-                {
-                    return NotFound();
-                }
-                else
-                {
-                    throw;
-                }
+                return RedirectToPage("./Index");
             }
 
-            return RedirectToPage("./Index");
+            PopulateDCDropDownList(_context, itemToUpdate.DistributionCenterId);
+            return Page();
+
         }
 
         private bool ItemExists(int id)

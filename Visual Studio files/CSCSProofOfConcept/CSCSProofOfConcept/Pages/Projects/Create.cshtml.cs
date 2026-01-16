@@ -10,7 +10,7 @@ using CSCSProofOfConcept.Models;
 
 namespace CSCSProofOfConcept.Pages.Projects
 {
-    public class CreateModel : PageModel
+    public class CreateModel : ItemNamePageModel
     {
         private readonly CSCSProofOfConcept.Data.CSCSProofOfConceptContext _context;
 
@@ -21,24 +21,35 @@ namespace CSCSProofOfConcept.Pages.Projects
 
         public IActionResult OnGet()
         {
+            PopulateItemDropDownList(_context);
             return Page();
         }
 
         [BindProperty]
         public Project Project { get; set; } = default!;
 
-        // For more information, see https://aka.ms/RazorPagesCRUD.
         public async Task<IActionResult> OnPostAsync()
         {
-            if (!ModelState.IsValid)
+            var emptyProject = new Project();
+
+            if (await TryUpdateModelAsync<Project>(
+                emptyProject,
+                "project",
+                p => p.Id, p => p.ItemId, p => p.Name, p => p.PrjType, p => p.OldSpec, p => p.NewSpec, p => p.PrjPrice, p => p.FreightStrat))
             {
-                return Page();
+                if (String.IsNullOrWhiteSpace(emptyProject.Item?.Name))
+                {
+                    emptyProject.Item = null;
+                    emptyProject.ItemId = null;
+                }
+                emptyProject.PrjStage = 1;
+                _context.Project.Add(emptyProject);
+                await _context.SaveChangesAsync();
+                return RedirectToPage("./Index");
             }
 
-            _context.Project.Add(Project);
-            await _context.SaveChangesAsync();
-
-            return RedirectToPage("./Index");
+            PopulateItemDropDownList(_context, emptyProject.ItemId);
+            return Page();
         }
     }
 }
