@@ -1,4 +1,5 @@
 ﻿@page
+@using CSCSProofOfConcept.Data
 @model CSCSProofOfConcept.Pages.Projects.IndexModel
 
 @{
@@ -8,7 +9,7 @@
 <h1>Index</h1>
 
 <p>
-    <a asp-page="Create">Create New</a>
+    <a asp-page="InitialCreate">Create New</a>
 </p>
 <table class="table">
     <thead>
@@ -56,7 +57,7 @@
                 @Html.DisplayFor(modelItem => item.Item.Name)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.PrjStage)
+                @Html.DisplayFor(modelItem => CacheData.States[item.PrjStage])
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.OldSpec)

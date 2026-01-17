@@ -20,6 +20,7 @@ namespace CSCSProofOfConcept.Pages.Items
         }
 
         public IList<Item> Item { get;set; } = default!;
+        public string User {  get; set; } = default!;
 
         public async Task OnGetAsync()
         {
@@ -27,6 +28,9 @@ namespace CSCSProofOfConcept.Pages.Items
                 .Include(c => c.DistributionCenter)
                 .AsNoTracking()
                 .ToListAsync();
+            User = CacheData.User;
+            var i = 2;
+            i = 3;
         }
     }
 }

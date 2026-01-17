@@ -17,5 +17,6 @@ namespace CSCSProofOfConcept.Data
         public DbSet<CSCSProofOfConcept.Models.DistributionCenter> DistributionCenter { get; set; } = default!;
         public DbSet<CSCSProofOfConcept.Models.Item> Item { get; set; } = default!;
         public DbSet<CSCSProofOfConcept.Models.Project> Project { get; set; } = default!;
+
     }
 }

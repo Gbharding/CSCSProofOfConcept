@@ -35,14 +35,22 @@ namespace CSCSProofOfConcept.Pages.Projects
             if (await TryUpdateModelAsync<Project>(
                 emptyProject,
                 "project",
-                p => p.Id, p => p.ItemId, p => p.Name, p => p.PrjType, p => p.OldSpec, p => p.NewSpec, p => p.PrjPrice, p => p.FreightStrat))
+                p => p.Id, p => p.ItemId, p => p.Name, p => p.OldSpec, p => p.NewSpec, p => p.PrjPrice, p => p.FreightStrat))
             {
-                if (String.IsNullOrWhiteSpace(emptyProject.Item?.Name))
-                {
-                    emptyProject.Item = null;
-                    emptyProject.ItemId = null;
-                }
                 emptyProject.PrjStage = 1;
+                switch(CacheData.InProgPrj)
+                {
+                    case 1:
+                        emptyProject.PrjType = PrjType.New;
+                        break;
+                    case 2:
+                        emptyProject.PrjType = PrjType.Transition;
+                        break;
+                    case 3:
+                        emptyProject.PrjType = PrjType.Discontinue;
+                        break;
+                }
+                CacheData.InProgPrj = 0;
                 _context.Project.Add(emptyProject);
                 await _context.SaveChangesAsync();
                 return RedirectToPage("./Index");

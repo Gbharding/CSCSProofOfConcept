@@ -83,8 +83,6 @@ C:\Users\GBHar\source\repos\CSCSProofOfConcept\CSCSProofOfConcept\Visual Studio 
 C:\Users\GBHar\source\repos\CSCSProofOfConcept\CSCSProofOfConcept\Visual Studio files\CSCSProofOfConcept\CSCSProofOfConcept\obj\Debug\net10.0\compressed\z6y8ggxqzi-{0}-muycvpuwrr-muycvpuwrr.gz
 C:\Users\GBHar\source\repos\CSCSProofOfConcept\CSCSProofOfConcept\Visual Studio files\CSCSProofOfConcept\CSCSProofOfConcept\obj\Debug\net10.0\compressed\2ndsjx6gmn-{0}-87fc7y1x7t-87fc7y1x7t.gz
 C:\Users\GBHar\source\repos\CSCSProofOfConcept\CSCSProofOfConcept\Visual Studio files\CSCSProofOfConcept\CSCSProofOfConcept\obj\Debug\net10.0\compressed\67xkpt6hxt-{0}-mlv21k5csn-mlv21k5csn.gz
-C:\Users\GBHar\source\repos\CSCSProofOfConcept\CSCSProofOfConcept\Visual Studio files\CSCSProofOfConcept\CSCSProofOfConcept\obj\Debug\net10.0\compressed\pxkyz2llat-{0}-6zuc3uesfv-6zuc3uesfv.gz
-C:\Users\GBHar\source\repos\CSCSProofOfConcept\CSCSProofOfConcept\Visual Studio files\CSCSProofOfConcept\CSCSProofOfConcept\obj\Debug\net10.0\compressed\u9zu0c56t5-{0}-6zuc3uesfv-6zuc3uesfv.gz
 C:\Users\GBHar\source\repos\CSCSProofOfConcept\CSCSProofOfConcept\Visual Studio files\CSCSProofOfConcept\CSCSProofOfConcept\obj\Debug\net10.0\staticwebassets.build.json
 C:\Users\GBHar\source\repos\CSCSProofOfConcept\CSCSProofOfConcept\Visual Studio files\CSCSProofOfConcept\CSCSProofOfConcept\obj\Debug\net10.0\staticwebassets.build.json.cache
 C:\Users\GBHar\source\repos\CSCSProofOfConcept\CSCSProofOfConcept\Visual Studio files\CSCSProofOfConcept\CSCSProofOfConcept\obj\Debug\net10.0\staticwebassets.development.json
@@ -338,3 +336,5 @@ C:\Users\GBHar\source\repos\CSCSProofOfConcept\CSCSProofOfConcept\Visual Studio 
 C:\Users\GBHar\source\repos\CSCSProofOfConcept\CSCSProofOfConcept\Visual Studio files\CSCSProofOfConcept\CSCSProofOfConcept\obj\Debug\net10.0\CSCSProofOfConcept.csproj.AssemblyReference.cache
 C:\Users\GBHar\source\repos\CSCSProofOfConcept\CSCSProofOfConcept\Visual Studio files\CSCSProofOfConcept\CSCSProofOfConcept\obj\Debug\net10.0\CSCSProofOfConcept.sourcelink.json
 C:\Users\GBHar\source\repos\CSCSProofOfConcept\CSCSProofOfConcept\Visual Studio files\CSCSProofOfConcept\CSCSProofOfConcept\obj\Debug\net10.0\CSCSProo.DEFE43E0.Up2Date
+C:\Users\GBHar\source\repos\CSCSProofOfConcept\CSCSProofOfConcept\Visual Studio files\CSCSProofOfConcept\CSCSProofOfConcept\obj\Debug\net10.0\compressed\pxkyz2llat-{0}-wwji2lueuk-wwji2lueuk.gz
+C:\Users\GBHar\source\repos\CSCSProofOfConcept\CSCSProofOfConcept\Visual Studio files\CSCSProofOfConcept\CSCSProofOfConcept\obj\Debug\net10.0\compressed\u9zu0c56t5-{0}-wwji2lueuk-wwji2lueuk.gz

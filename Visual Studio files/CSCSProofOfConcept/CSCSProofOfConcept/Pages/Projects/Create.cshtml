@@ -1,4 +1,5 @@
 ﻿@page
+@using CSCSProofOfConcept.Data
 @model CSCSProofOfConcept.Pages.Projects.CreateModel
 
         @{
@@ -19,22 +20,19 @@
                 <input asp-for="Project.Name" class="form-control" aria-required="true"/>
                 <span asp-validation-for="Project.Name" class="text-danger"></span>
             </div>
-            <div class="form-group">
-                <label asp-for="Project.PrjType" class="control-label"></label>
-                <select asp-for="Project.PrjType" class="form-control" >
-                    <option value="New">New</option>
-                    <option value="Transition">Transition</option>
-                    <option value="Discontinue">Discontinue</option>
-                </select>
-                <span asp-validation-for="Project.PrjType" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Project.Item" class="control-label"></label>
-                <select asp-for="Project.ItemId" class="form-control" asp-items="@Model.ItemNameSL">
-                    <option value="">-- Select an Item --</option>
-                    <span asp-validation-for="Project.ItemId" class="text-danger"></span>
-                </select>
-            </div>
+
+            @if (CacheData.InProgPrj != 1)
+                {
+                    <div class="form-group">
+                        <label asp-for="Project.Item" class="control-label"></label>
+                        <select asp-for="Project.ItemId" class="form-control" asp-items="@Model.ItemNameSL">
+                            <option value="">-- Select an Item --</option>
+                            <span asp-validation-for="Project.ItemId" class="text-danger"></span>
+                        </select>
+                    </div>
+                }
+
+
             <div class="form-group">
                 <label asp-for="Project.OldSpec" class="control-label"></label>
                 <input asp-for="Project.OldSpec" class="form-control" />
