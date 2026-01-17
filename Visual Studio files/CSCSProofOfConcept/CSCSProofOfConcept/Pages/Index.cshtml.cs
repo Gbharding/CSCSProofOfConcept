@@ -12,6 +12,11 @@ namespace CSCSProofOfConcept.Pages
         {
             _context = context;
         }
+
+        public void OnGet()
+        {
+            CacheData.User = "Logout";
+        }
         public async Task<IActionResult> OnPostAsync(string user)
         {
             CacheData.User = user;

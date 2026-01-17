@@ -22,7 +22,6 @@ namespace CSCSProofOfConcept.Pages.Projects
         public IActionResult OnGet()
         {
             PopulateItemDropDownList(_context);
-            PopulateDCDropDownList(_context);
             return Page();
         }
 
@@ -36,9 +35,10 @@ namespace CSCSProofOfConcept.Pages.Projects
             if (await TryUpdateModelAsync<Project>(
                 emptyProject,
                 "project",
-                p => p.Id, p => p.ItemId, p => p.DistributionCenterId, p => p.Name, p => p.NewSpec, p => p.PrjPrice, p => p.FreightStrat))
+                p => p.Id, p => p.ItemId, p => p.DistributionCenterId, p => p.Name, p => p.Description, p => p.NewSpec))
             {
                 emptyProject.PrjStage = 0;
+                emptyProject.DueDate = DateTime.Now.AddDays(3);
                 switch(CacheData.InProgPrj)
                 {
                     case 1:
@@ -58,7 +58,6 @@ namespace CSCSProofOfConcept.Pages.Projects
             }
 
             PopulateItemDropDownList(_context, emptyProject.ItemId);
-            PopulateDCDropDownList(_context, emptyProject.DistributionCenterId);
             return Page();
         }
     }

@@ -28,7 +28,10 @@ namespace CSCSProofOfConcept.Pages.Projects
                 return NotFound();
             }
 
-            var project = await _context.Project.FirstOrDefaultAsync(m => m.Id == id);
+            var project = await _context.Project
+                .Include(m => m.Item)
+                .Include(m => m.DistributionCenter)
+                .FirstOrDefaultAsync(m => m.Id == id);
 
             if (project is not null)
             {

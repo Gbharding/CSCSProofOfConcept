@@ -22,8 +22,9 @@
         static string[] _states = { "Waiting on Logistics for Freight Requirements", 
                                     "Needs Supplier to submit to Logistics", //New items only
                                     "Waiting on Logistics approval", //New items only
+                                    "Waiting on Supplier for pricing",
                                     "Waiting on Pricing approval", 
-                                    "Waiting on CM for DC connections", //New and transition
+                                    "Waiting for DC connections", //New and transition
                                     "Needs SSM Approval", 
                                     "In Ramp-up", //New only 
                                     "In Runout", //Discontinue only 
@@ -37,8 +38,9 @@
         static string[] _stageRequirements = { "Log",
                                                "Supp", //New items only
                                                "Log", //New items only
+                                               "Supp",
                                                "Price",
-                                               "CM", //New and transition
+                                               "DC", //New and transition
                                                "SSM",
                                                "SSM", //New only 
                                                "SSM", //Discontinue only 

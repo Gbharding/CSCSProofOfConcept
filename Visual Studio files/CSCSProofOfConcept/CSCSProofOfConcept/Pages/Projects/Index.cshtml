@@ -7,10 +7,12 @@
 }
 
 <h1>Project Manager</h1>
-
-<p>
-    <a asp-page="InitialCreate">Create New</a>
-</p>
+@if (CacheData.User == "CM" || CacheData.User == "SSM")
+{
+    <p>
+        <a asp-page="InitialCreate">Create New</a>
+    </p>
+}
 <table class="table">
     <thead>
         <tr>
@@ -21,22 +23,16 @@
                 @Html.DisplayNameFor(model => model.Project[0].PrjType)
             </th>
             <th>
+                @Html.DisplayNameFor(model => model.Project[0].DueDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Project[0].Description)
+            </th>
+            <th>
                 @Html.DisplayNameFor(model => model.Project[0].Item)
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.Project[0].PrjStage)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Project[0].NewSpec)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Project[0].PrjPrice)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Project[0].FreightStrat)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Project[0].History)
             </th>
             <th></th>
         </tr>
@@ -51,30 +47,68 @@
                 @Html.DisplayFor(modelItem => item.PrjType)
             </td>
             <td>
+                @Html.DisplayFor(modelItem => item.DueDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Description)
+            </td>
+            <td>
                 @Html.DisplayFor(modelItem => item.Item.Name)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => CacheData.States[item.PrjStage])
             </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.NewSpec)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.PrjPrice)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.FreightStrat)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.History)
-            </td>
-            <td>
-                <a asp-page="./Advance" asp-route-id="@item.Id">Advance</a> |
-                <a asp-page="./Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-page="./Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-page="./Delete" asp-route-id="@item.Id">Delete</a>
-            </td>
-        </tr>
+                @if (CacheData.StageRequirements[item.PrjStage] == CacheData.User)
+                {
+                    @if (CacheData.User == "SSM")
+                    {
+                        <td>
+                            <a asp-page="./Advance" asp-route-id="@item.Id">Advance</a> |
+                            <a asp-page="./Edit" asp-route-id="@item.Id">Edit</a> |
+                            <a asp-page="./Details" asp-route-id="@item.Id">Details</a> |
+                            <a asp-page="./Delete" asp-route-id="@item.Id">Delete</a>
+                        </td>
+                    }
+                    else if (CacheData.User == "CM")
+                    {
+                        <td>
+                            <a asp-page="./Advance" asp-route-id="@item.Id">Advance</a> |
+                            <a asp-page="./Edit" asp-route-id="@item.Id">Edit</a> |
+                            <a asp-page="./Details" asp-route-id="@item.Id">Details</a>
+                        </td>
+                    }
+                    else
+                    {
+                        <td>
+                            <a asp-page="./Advance" asp-route-id="@item.Id">Advance</a> |
+                            <a asp-page="./Details" asp-route-id="@item.Id">Details</a>
+                        </td>
+                    }
+                } else
+                {
+                    @if (CacheData.User == "SSM")
+                    {
+                        <td>
+                            <a asp-page="./Edit" asp-route-id="@item.Id">Edit</a> |
+                            <a asp-page="./Details" asp-route-id="@item.Id">Details</a> |
+                            <a asp-page="./Delete" asp-route-id="@item.Id">Delete</a>
+                        </td>
+                    }
+                    else if (CacheData.User == "CM")
+                    {
+                        <td>
+                            <a asp-page="./Edit" asp-route-id="@item.Id">Edit</a> |
+                            <a asp-page="./Details" asp-route-id="@item.Id">Details</a>
+                        </td>
+                    }
+                    else
+                    {
+                        <td>
+                            <a asp-page="./Details" asp-route-id="@item.Id">Details</a>
+                        </td>
+                    }
+                }
+            </tr>
 }
     </tbody>
 </table>

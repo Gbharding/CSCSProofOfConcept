@@ -1,5 +1,6 @@
 ﻿@page
 @model CSCSProofOfConcept.Pages.Projects.DetailsModel
+@using CSCSProofOfConcept.Data
 
 @{
     ViewData["Title"] = "Details";
@@ -18,16 +19,34 @@
             @Html.DisplayFor(model => model.Project.Name)
         </dd>
         <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Project.Description)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Project.Description)
+        </dd>
+        <dt class="col-sm-2">
             @Html.DisplayNameFor(model => model.Project.PrjType)
         </dt>
         <dd class="col-sm-10">
             @Html.DisplayFor(model => model.Project.PrjType)
         </dd>
         <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Project.DueDate)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Project.DueDate)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Project.Item)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Project.Item.Name)
+        </dd>
+        <dt class="col-sm-2">
             @Html.DisplayNameFor(model => model.Project.PrjStage)
         </dt>
         <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Project.PrjStage)
+            @Html.DisplayFor(model => CacheData.States[Model.Project.PrjStage])
         </dd>
         <dt class="col-sm-2">
             @Html.DisplayNameFor(model => model.Project.NewSpec)
@@ -46,6 +65,12 @@
         </dt>
         <dd class="col-sm-10">
             @Html.DisplayFor(model => model.Project.FreightStrat)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Project.DistributionCenter)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Project.DistributionCenter.Name)
         </dd>
         <dt class="col-sm-2">
             @Html.DisplayNameFor(model => model.Project.History)

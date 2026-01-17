@@ -1,5 +1,6 @@
 ﻿@page
 @model CSCSProofOfConcept.Pages.DistributionCenters.IndexModel
+@using CSCSProofOfConcept.Data
 
 @{
     ViewData["Title"] = "DC Manager";
@@ -7,9 +8,12 @@
 
 <h1>DC Manager</h1>
 
-<p>
-    <a asp-page="Create">Create New</a>
-</p>
+@if (CacheData.User != "CM")
+{
+    <p>
+        <a asp-page="Create">Create New</a>
+    </p>
+}
 <table class="table">
     <thead>
         <tr>
@@ -38,9 +42,20 @@
                 @Html.DisplayFor(modelItem => item.NumTrucks)
             </td>
             <td>
-                <a asp-page="./Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-page="./Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-page="./Delete" asp-route-id="@item.Id">Delete</a>
+            @if (CacheData.User != "CM") 
+            {
+                    <td>
+                        <a asp-page="./Edit" asp-route-id="@item.Id">Edit</a> |
+                        <a asp-page="./Details" asp-route-id="@item.Id">Details</a> |
+                        <a asp-page="./Delete" asp-route-id="@item.Id">Delete</a>
+                    </td>
+                } else
+                {
+                    <td>
+                        <a asp-page="./Details" asp-route-id="@item.Id">Details</a> 
+                    </td>
+                    
+                }
             </td>
         </tr>
 }

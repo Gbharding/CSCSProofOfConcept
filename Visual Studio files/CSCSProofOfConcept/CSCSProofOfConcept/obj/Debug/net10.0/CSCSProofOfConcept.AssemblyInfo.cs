@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CSCSProofOfConcept")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+de1033f991f4c9b712f9f673a712adeb88258067")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e7d9ea630021910daf4898b8ac136a8630d389b0")]
 [assembly: System.Reflection.AssemblyProductAttribute("CSCSProofOfConcept")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CSCSProofOfConcept")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
