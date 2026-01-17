@@ -20,6 +20,11 @@
                 <input asp-for="Project.Name" class="form-control" aria-required="true"/>
                 <span asp-validation-for="Project.Name" class="text-danger"></span>
             </div>
+            <div class="form-group">
+                <label asp-for="Project.Description" class="control-label"></label>
+                <input asp-for="Project.Description" class="form-control" />
+                <span asp-validation-for="Project.Description" class="text-danger"></span>
+            </div>
 
             @if (CacheData.InProgPrj != 1)
                 {
@@ -32,11 +37,12 @@
                     </div>
                 }
 
-
             <div class="form-group">
-                <label asp-for="Project.OldSpec" class="control-label"></label>
-                <input asp-for="Project.OldSpec" class="form-control" />
-                <span asp-validation-for="Project.OldSpec" class="text-danger"></span>
+                <label asp-for="Project.DistributionCenter" class="control-label"></label>
+                <select asp-for="Project.DistributionCenterId" class="form-control" asp-items="@Model.DCNameSL">
+                    <option value="">-- Select a Distribution Center --</option>
+                    <span asp-validation-for="Project.DistributionCenterId" class="text-danger"></span>
+                </select>
             </div>
             <div class="form-group">
                 <label asp-for="Project.NewSpec" class="control-label"></label>

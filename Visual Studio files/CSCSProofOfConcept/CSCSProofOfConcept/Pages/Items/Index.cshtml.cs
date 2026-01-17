@@ -29,8 +29,6 @@ namespace CSCSProofOfConcept.Pages.Items
                 .AsNoTracking()
                 .ToListAsync();
             User = CacheData.User;
-            var i = 2;
-            i = 3;
         }
     }
 }

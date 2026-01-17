@@ -19,11 +19,11 @@
         }
 
         //prj state arrays
-        static string[] _states = { "Waiting on Freight Requirements", 
-                                    "Needs to be submitted to Logistics", //New items only
+        static string[] _states = { "Waiting on Logistics for Freight Requirements", 
+                                    "Needs Supplier to submit to Logistics", //New items only
                                     "Waiting on Logistics approval", //New items only
-                                    "Waiting on Pricing", 
-                                    "Waiting for DC connections", //New and transition
+                                    "Waiting on Pricing approval", 
+                                    "Waiting on CM for DC connections", //New and transition
                                     "Needs SSM Approval", 
                                     "In Ramp-up", //New only 
                                     "In Runout", //Discontinue only 
@@ -32,6 +32,21 @@
         public static string[] States
         {
             get { return _states; } 
+        }
+
+        static string[] _stageRequirements = { "Log",
+                                               "Supp", //New items only
+                                               "Log", //New items only
+                                               "Price",
+                                               "CM", //New and transition
+                                               "SSM",
+                                               "SSM", //New only 
+                                               "SSM", //Discontinue only 
+                                               "CM",
+                                               "Done" };
+        public static string[] StageRequirements
+        {
+            get { return _stageRequirements; }
         }
     }
 }

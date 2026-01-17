@@ -3,10 +3,10 @@
 @model CSCSProofOfConcept.Pages.Projects.IndexModel
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Project Manager";
 }
 
-<h1>Index</h1>
+<h1>Project Manager</h1>
 
 <p>
     <a asp-page="InitialCreate">Create New</a>
@@ -25,9 +25,6 @@
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.Project[0].PrjStage)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Project[0].OldSpec)
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.Project[0].NewSpec)
@@ -60,9 +57,6 @@
                 @Html.DisplayFor(modelItem => CacheData.States[item.PrjStage])
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.OldSpec)
-            </td>
-            <td>
                 @Html.DisplayFor(modelItem => item.NewSpec)
             </td>
             <td>
@@ -75,6 +69,7 @@
                 @Html.DisplayFor(modelItem => item.History)
             </td>
             <td>
+                <a asp-page="./Advance" asp-route-id="@item.Id">Advance</a> |
                 <a asp-page="./Edit" asp-route-id="@item.Id">Edit</a> |
                 <a asp-page="./Details" asp-route-id="@item.Id">Details</a> |
                 <a asp-page="./Delete" asp-route-id="@item.Id">Delete</a>
