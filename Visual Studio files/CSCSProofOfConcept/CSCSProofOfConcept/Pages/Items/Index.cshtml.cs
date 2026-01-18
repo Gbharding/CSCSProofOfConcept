@@ -20,15 +20,17 @@ namespace CSCSProofOfConcept.Pages.Items
         }
 
         public IList<Item> Item { get;set; } = default!;
-        public string User {  get; set; } = default!;
 
         public async Task OnGetAsync()
         {
-            Item = await _context.Item
+            var items = from i in _context.Item
+                        select i;
+            items = items.Where(i => i.IsActive == true);
+
+            Item = await items
                 .Include(c => c.DistributionCenter)
                 .AsNoTracking()
                 .ToListAsync();
-            User = CacheData.User;
         }
     }
 }

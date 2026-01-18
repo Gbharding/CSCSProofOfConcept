@@ -16,6 +16,7 @@ namespace CSCSProofOfConcept.Pages.Projects
         {
             var itemsQuery = from i in _context.Item
                              orderby i.Name
+                             where i.IsActive == true
                              select i;
             ItemNameSL = new SelectList(itemsQuery.AsNoTracking(),
                 nameof(Item.Id),

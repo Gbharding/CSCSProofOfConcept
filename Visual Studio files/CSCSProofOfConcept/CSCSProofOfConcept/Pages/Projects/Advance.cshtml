@@ -11,6 +11,66 @@
 
 <h4>Project</h4>
 <hr />
+
+<div>
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Project.Name)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Project.Name)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Project.Description)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Project.Description)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Project.PrjType)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Project.PrjType)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Project.Item)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Project.Item.Name)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Project.NewSpec)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Project.NewSpec)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Project.PrjPrice)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Project.PrjPrice)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Project.FreightStrat)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Project.FreightStrat)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Project.DistributionCenter)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Project.DistributionCenter.Name)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Project.History)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Project.History)
+        </dd>
+    </dl>
+</div>
+
 <div class="row">
     <div class="col-md-4">
         <form method="post">
@@ -45,10 +105,17 @@
                     </select>
                 </div>
             }
+            @if (Model.Project.PrjStage != 0)
+                {
+                    <div class="form-group">
+                        <input type="submit" asp-route-type="1" value="Approve" class="btn btn-primary" />
+                        <input type="submit" asp-route-type="2" value="Reject" class="btn btn-danger" />
+                    </div>
+                } else
+                {
+                        <input type="submit" asp-route-type="1" value="Approve" class="btn btn-primary" />
+                }
 
-            <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-primary" />
-            </div>
         </form>
     </div>
 </div>
