@@ -8,68 +8,97 @@
 
 <h1>Advance</h1>
 
-
-<h4>Project</h4>
-<hr />
-
-<div>
-    <dl class="row">
-        <dt class="col-sm-2">
+<table style="margin-bottom: 14px;" class="detail-table">
+    <tr class="detail-table">
+        <th class="detail-table">
             @Html.DisplayNameFor(model => model.Project.Name)
-        </dt>
-        <dd class="col-sm-10">
+        </th>
+        <td class="detail-table">
             @Html.DisplayFor(model => model.Project.Name)
-        </dd>
-        <dt class="col-sm-2">
+        </td>
+    </tr>
+    <tr class="detail-table">
+        <th class="detail-table">
             @Html.DisplayNameFor(model => model.Project.Description)
-        </dt>
-        <dd class="col-sm-10">
+        </th>
+        <td class="detail-table">
             @Html.DisplayFor(model => model.Project.Description)
-        </dd>
-        <dt class="col-sm-2">
+        </td>
+    </tr>
+    <tr class="detail-table">
+        <th class="detail-table">
             @Html.DisplayNameFor(model => model.Project.PrjType)
-        </dt>
-        <dd class="col-sm-10">
+        </th>
+        <td class="detail-table">
             @Html.DisplayFor(model => model.Project.PrjType)
-        </dd>
-        <dt class="col-sm-2">
+        </td>
+    </tr>
+    <tr class="detail-table">
+        <th class="detail-table">
+            @Html.DisplayNameFor(model => model.Project.DueDate)
+        </th>
+        <td class="detail-table">
+            @Html.DisplayFor(model => model.Project.DueDate)
+        </td>
+    </tr>
+    <tr class="detail-table">
+        <th class="detail-table">
             @Html.DisplayNameFor(model => model.Project.Item)
-        </dt>
-        <dd class="col-sm-10">
+        </th>
+        <td class="detail-table">
             @Html.DisplayFor(model => model.Project.Item.Name)
-        </dd>
-        <dt class="col-sm-2">
+        </td>
+    </tr>
+    <tr class="detail-table">
+        <th class="detail-table">
+            @Html.DisplayNameFor(model => model.Project.PrjStage)
+        </th>
+        <td class="detail-table">
+            @Html.DisplayFor(model => CacheData.States[Model.Project.PrjStage])
+        </td>
+    </tr>
+    <tr class="detail-table">
+        <th class="detail-table">
             @Html.DisplayNameFor(model => model.Project.NewSpec)
-        </dt>
-        <dd class="col-sm-10">
+        </th>
+        <td class="detail-table">
             @Html.DisplayFor(model => model.Project.NewSpec)
-        </dd>
-        <dt class="col-sm-2">
+        </td>
+    </tr>
+    <tr class="detail-table">
+        <th class="detail-table">
             @Html.DisplayNameFor(model => model.Project.PrjPrice)
-        </dt>
-        <dd class="col-sm-10">
+        </th>
+        <td class="detail-table">
             @Html.DisplayFor(model => model.Project.PrjPrice)
-        </dd>
-        <dt class="col-sm-2">
+        </td>
+    </tr>
+    <tr class="detail-table">
+        <th class="detail-table">
             @Html.DisplayNameFor(model => model.Project.FreightStrat)
-        </dt>
-        <dd class="col-sm-10">
+        </th>
+        <td class="detail-table">
             @Html.DisplayFor(model => model.Project.FreightStrat)
-        </dd>
-        <dt class="col-sm-2">
+        </td>
+    </tr>
+    <tr class="detail-table">
+        <th class="detail-table">
             @Html.DisplayNameFor(model => model.Project.DistributionCenter)
-        </dt>
-        <dd class="col-sm-10">
+        </th>
+        <td class="detail-table">
             @Html.DisplayFor(model => model.Project.DistributionCenter.Name)
-        </dd>
-        <dt class="col-sm-2">
+        </td>
+    </tr>
+    <tr class="detail-table">
+        <th class="detail-table">
             @Html.DisplayNameFor(model => model.Project.History)
-        </dt>
-        <dd class="col-sm-10">
+        </th>
+        <td class="detail-table">
             @Html.DisplayFor(model => model.Project.History)
-        </dd>
-    </dl>
-</div>
+        </td>
+    </tr>
+</table>
+
 
 <div class="row">
     <div class="col-md-4">
@@ -79,27 +108,27 @@
 
             @if (Model.Project.PrjStage == 0)
             {
-                <div class="form-group">
+                <div style="margin-top: 15px;" class="form-group">
                     <label asp-for="Project.FreightStrat" class="control-label"></label>
-                    <input asp-for="Project.FreightStrat" class="form-control" />
+                    <input style="margin-top: 10px;" asp-for="Project.FreightStrat" class="form-control" />
                     <span asp-validation-for="Project.FreightStrat" class="text-danger"></span>
                 </div>
                     
             }
             @if (Model.Project.PrjStage == 3)
             {
-                <div class="form-group">
+                <div style="margin-top: 15px;" class="form-group">
                     <label asp-for="Project.PrjPrice" class="control-label"></label>
-                    <input asp-for="Project.PrjPrice" class="form-control" />
+                    <input style="margin-top: 10px;" asp-for="Project.PrjPrice" class="form-control" />
                     <span asp-validation-for="Project.PrjPrice" class="text-danger"></span>
                 </div>
 
             }
             @if (Model.Project.PrjStage == 5)
             {
-                <div class="form-group">
+                <div style="margin-top: 15px;" class="form-group">
                     <label asp-for="Project.DistributionCenter" class="control-label"></label>
-                    <select asp-for="Project.DistributionCenterId" class="form-control" asp-items="@Model.DCNameSL">
+                    <select style="margin-top: 10px;" asp-for="Project.DistributionCenterId" class="form-control" asp-items="@Model.DCNameSL">
                         <option value="">-- Select a Distribution Center --</option>
                         <span asp-validation-for="Project.DistributionCenterId" class="text-danger"></span>
                     </select>
@@ -107,13 +136,13 @@
             }
             @if (Model.Project.PrjStage != 0)
                 {
-                    <div class="form-group">
+                    <div style="margin-top: 15px;" class="form-group">
                         <input type="submit" asp-route-type="1" value="Approve" class="btn btn-primary" />
                         <input type="submit" asp-route-type="2" value="Reject" class="btn btn-danger" />
                     </div>
                 } else
                 {
-                        <input type="submit" asp-route-type="1" value="Approve" class="btn btn-primary" />
+                    <input style="margin-top: 15px;" type="submit" asp-route-type="1" value="Approve" class="btn btn-primary" />
                 }
 
         </form>
@@ -121,7 +150,9 @@
 </div>
 
 
-<div>
-    <a asp-page="./Index">Back to List</a>
+<div style="display: flex; margin-top: 15px;">
+    <div class="prj-button-container">
+        <a class="prj-button" asp-page="./Index">Back to List</a>
+    </div>
 </div>
 

@@ -4,16 +4,17 @@
     ViewData["Title"] = "Home page";
 }
 
+
 <form method="post">
 <div class="text-center">
-    <h1 class="display-4">Welcome! Please log in</h1>
-    <div style="display:flex; flex-direction:column;">
-        <input type="submit" name="login" value="Category Manager" asp-route-user="CM" class="btn btn-primary" />
-        <input type="submit" name="login" value="Logistics" asp-route-user="Log" class="btn btn-primary" />
-        <input type="submit" name="login" value="Supplier" asp-route-user="Supp" class="btn btn-primary" />
-        <input type="submit" name="login" value="Pricing" asp-route-user="Price" class="btn btn-primary" />
-        <input type="submit" name="login" value="Strategic Supply" asp-route-user="SSM" class="btn btn-primary" />
-        <input type="submit" name="login" value="DC Operator" asp-route-user="DC" class="btn btn-primary" />
+    <h1 style="margin-top: 50px;" class="display-4">Welcome! Please log in</h1>
+    <div style="display:flex; flex-direction:column; margin-top: 50px;">
+        <input type="submit" name="login" value="Category Manager" asp-route-user="CM" class="btn btn-primary login-button" />
+        <input type="submit" name="login" value="Logistics" asp-route-user="Log" class="btn btn-primary login-button" />
+        <input type="submit" name="login" value="Supplier" asp-route-user="Supp" class="btn btn-primary login-button" />
+        <input type="submit" name="login" value="Pricing" asp-route-user="Price" class="btn btn-primary login-button" />
+        <input type="submit" name="login" value="Strategic Supply" asp-route-user="SSM" class="btn btn-primary login-button" />
+        <input type="submit" name="login" value="DC Operator" asp-route-user="DC" class="btn btn-primary login-button" />
     </div>
 </div>
 </form>

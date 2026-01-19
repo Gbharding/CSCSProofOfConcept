@@ -9,6 +9,7 @@ namespace CSCSProofOfConcept.Models
         [Required]
         public string Name { get; set; }
         public string? Address { get; set; }
+        [Display(Name = "Total Trucks")]
         public int NumTrucks { get; set; }
     }
 }

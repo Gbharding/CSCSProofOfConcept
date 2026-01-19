@@ -22,18 +22,26 @@ namespace CSCSProofOfConcept.Models
         public Item? Item { get; set; }
 
         public int? DistributionCenterId { get; set; }
+        [Display(Name = "Distribution Center")]
         public DistributionCenter? DistributionCenter { get; set; }
 
+        [Display(Name = "Type")]
         public PrjType PrjType { get; set; }
+
+        [Display(Name = "Stage")]
         public int PrjStage { get; set; }
 
         [DataType(DataType.Date)]
+        [Display(Name = "Due")]
         public DateTime? DueDate { get; set; }
+        [Display(Name = "Updated Specifications")]
         public string? NewSpec { get; set; }
 
         [DataType(DataType.Currency)]
+        [Display(Name = "Price")]
         public double? PrjPrice { get; set; }
+        [Display(Name = "Freight Strategy")]
         public string? FreightStrat { get; set; }
-        public ICollection<String>? History { get; set; }
+        public string? History { get; set; }
     }
 }

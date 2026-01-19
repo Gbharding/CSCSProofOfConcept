@@ -7,38 +7,38 @@
 
 <h1>Edit</h1>
 
-<h4>Project</h4>
-<hr />
 <div class="row">
     <div class="col-md-4">
         <form method="post">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <input type="hidden" asp-for="Project.Id" />
-            <div class="form-group">
+            <div style="margin-top: 15px;" class="form-group">
 <span class="text-danger">*</span>
                 <label asp-for="Project.Name" class="control-label"></label>
-                <input asp-for="Project.Name" class="form-control" aria-required="true"/>
+                <input style="margin-top: 10px;" asp-for="Project.Name" class="form-control" aria-required="true" />
                 <span asp-validation-for="Project.Name" class="text-danger"></span>
             </div>
-            <div class="form-group">
+            <div style="margin-top: 15px;" class="form-group">
                 <label asp-for="Project.Description" class="control-label"></label>
-                <input asp-for="Project.Description" class="form-control" />
+                <input style="margin-top: 10px;" asp-for="Project.Description" class="form-control" />
                 <span asp-validation-for="Project.Description" class="text-danger"></span>
             </div>
-            <div class="form-group">
+            <div style="margin-top: 15px;" class="form-group">
                 <label asp-for="Project.NewSpec" class="control-label"></label>
-                <input asp-for="Project.NewSpec" class="form-control" />
+                <input style="margin-top: 10px;" asp-for="Project.NewSpec" class="form-control" />
                 <span asp-validation-for="Project.NewSpec" class="text-danger"></span>
             </div>
-            <div class="form-group">
+            <div style="margin-top: 15px;" class="form-group">
                 <input type="submit" value="Save" class="btn btn-primary" />
             </div>
         </form>
     </div>
 </div>
 
-<div>
-    <a asp-page="./Index">Back to List</a>
+<div style="display: flex; margin-top: 15px;">
+    <div class="prj-button-container">
+        <a class="prj-button" asp-page="./Index">Back to List</a>
+    </div>
 </div>
 
 @section Scripts {

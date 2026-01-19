@@ -9,106 +9,166 @@
 <h1>Project Manager</h1>
 @if (CacheData.User == "CM" || CacheData.User == "SSM")
 {
-    <p>
-        <a asp-page="InitialCreate">Create New</a>
+    <div style="display: flex;">
+    <p class="new-button">
+        <a class="new-text" asp-page="InitialCreate">Create New</a>
     </p>
+    </div>
 }
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Project[0].Name)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Project[0].PrjType)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Project[0].DueDate)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Project[0].Description)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Project[0].Item)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Project[0].PrjStage)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model.Project) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Name)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.PrjType)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.DueDate)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Description)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Item.Name)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => CacheData.States[item.PrjStage])
-            </td>
+
+<div class="card-holder">
+    @foreach (var item in Model.Project)
+    {
+        <div class="card">
+            <div class="card-interior">
+                <div style="display: flex; margin-top: 6px;">
+                <h4 style="margin-top: 2px;">
+                    @Html.DisplayFor(modelItem => item.Name)
+                </h4>
+                @if (item.PrjType == Models.PrjType.New) {
+                <div class="small-label new-prj">
+                    <label class="small-text">
+                        @Html.DisplayFor(modelItem => item.PrjType)
+                    </label>
+                </div>
+                }
+                else if (item.PrjType == Models.PrjType.Transition)
+                {
+                    <div class="small-label transition-prj">
+                        <label class="small-text">
+                            @Html.DisplayFor(modelItem => item.PrjType)
+                        </label>
+                    </div>
+                } else
+                {
+                    <div class="small-label discontinue-prj">
+                        <label class="small-text">
+                            @Html.DisplayFor(modelItem => item.PrjType)
+                        </label>
+                    </div>
+                }
+                </div>
+                <div style="display: flex; margin-top: 8px;">
+                    @if (CacheData.StageRequirements[item.PrjStage] == CacheData.User)
+                    {
+                        <div class="stage-label-user">
+                            <label class="stage-text">
+                                @Html.DisplayFor(modelItem => CacheData.States[item.PrjStage])
+                            </label>
+                        </div>
+                    } else
+                    {
+                        <div class="stage-label">
+                            <label class="stage-text">
+                                @Html.DisplayFor(modelItem => CacheData.States[item.PrjStage])
+                            </label>
+                        </div>
+                    }
+                    @if ((DateTime.Compare((DateTime) item.DueDate,DateTime.Now)) < 0)
+                    {
+                        <div class="due-date-label-over">
+                            <label class="stage-text">
+                                Due: @Html.DisplayFor(modelItem => item.DueDate)
+                            </label>
+                        </div>
+                    } else {
+                        <div class="due-date-label">
+                           <label class="stage-text">
+                                Due: @Html.DisplayFor(modelItem => item.DueDate)
+                            </label>
+                        </div>
+                    }
+                </div>
                 @if (CacheData.StageRequirements[item.PrjStage] == CacheData.User)
                 {
                     @if (CacheData.User == "SSM")
                     {
-                        <td>
-                            <a asp-page="./Advance" asp-route-id="@item.Id">Advance</a> |
-                            <a asp-page="./Edit" asp-route-id="@item.Id">Edit</a> |
-                            <a asp-page="./Details" asp-route-id="@item.Id">Details</a> |
-                            <a asp-page="./Delete" asp-route-id="@item.Id">Delete</a>
-                        </td>
+                        <div style="display: flex">
+                            <div class="prj-button-container">
+                                <a class="prj-button" asp-page="./Advance" asp-route-id="@item.Id">Advance</a>
+                            </div>
+                            <div class="prj-button-container">
+                                <a class="prj-button" asp-page="./Edit" asp-route-id="@item.Id">Edit</a>
+                            </div>
+                            <div class="prj-button-container">
+                                <a class="prj-button" asp-page="./Details" asp-route-id="@item.Id">Details</a>
+                            </div>
+                            <div class="prj-button-container">
+                                <a class="prj-button" asp-page="./Delete" asp-route-id="@item.Id">Delete</a>
+                            </div>
+                        </div>
+                       
                     }
                     else if (CacheData.User == "CM")
                     {
-                        <td>
-                            <a asp-page="./Advance" asp-route-id="@item.Id">Advance</a> |
-                            <a asp-page="./Edit" asp-route-id="@item.Id">Edit</a> |
-                            <a asp-page="./Details" asp-route-id="@item.Id">Details</a>
-                        </td>
+
+                        <div style="display: flex">
+                            <div class="prj-button-container">
+                                <a class="prj-button" asp-page="./Advance" asp-route-id="@item.Id">Advance</a>
+                            </div>
+                            <div class="prj-button-container">
+                                <a class="prj-button" asp-page="./Edit" asp-route-id="@item.Id">Edit</a>
+                            </div>
+                            <div class="prj-button-container">
+                                <a class="prj-button" asp-page="./Details" asp-route-id="@item.Id">Details</a>
+                            </div>
+                        </div>
                     }
                     else
                     {
-                        <td>
-                            <a asp-page="./Advance" asp-route-id="@item.Id">Advance</a> |
-                            <a asp-page="./Details" asp-route-id="@item.Id">Details</a>
-                        </td>
+
+                        <div style="display: flex">
+                            <div class="prj-button-container">
+                                <a class="prj-button" asp-page="./Advance" asp-route-id="@item.Id">Advance</a>
+                            </div>
+                            <div class="prj-button-container">
+                                <a class="prj-button" asp-page="./Details" asp-route-id="@item.Id">Details</a>
+                            </div>
+                        </div>
                     }
-                } else
+                }
+                else
                 {
                     @if (CacheData.User == "SSM")
                     {
-                        <td>
-                            <a asp-page="./Edit" asp-route-id="@item.Id">Edit</a> |
-                            <a asp-page="./Details" asp-route-id="@item.Id">Details</a> |
-                            <a asp-page="./Delete" asp-route-id="@item.Id">Delete</a>
-                        </td>
+
+                        <div style="display: flex">
+                            <div class="prj-button-container">
+                                <a class="prj-button" asp-page="./Edit" asp-route-id="@item.Id">Edit</a>
+                            </div>
+                            <div class="prj-button-container">
+                                <a class="prj-button" asp-page="./Details" asp-route-id="@item.Id">Details</a>
+                            </div>
+                            <div class="prj-button-container">
+                                <a class="prj-button" asp-page="./Delete" asp-route-id="@item.Id">Delete</a>
+                            </div>
+                        </div>
                     }
                     else if (CacheData.User == "CM")
                     {
-                        <td>
-                            <a asp-page="./Edit" asp-route-id="@item.Id">Edit</a> |
-                            <a asp-page="./Details" asp-route-id="@item.Id">Details</a>
-                        </td>
+
+                        <div style="display: flex">
+                            <div class="prj-button-container">
+                                <a class="prj-button" asp-page="./Edit" asp-route-id="@item.Id">Edit</a>
+                            </div>
+                            <div class="prj-button-container">
+                                <a class="prj-button" asp-page="./Details" asp-route-id="@item.Id">Details</a>
+                            </div>
+                        </div>
                     }
                     else
                     {
-                        <td>
-                            <a asp-page="./Details" asp-route-id="@item.Id">Details</a>
-                        </td>
+
+                        <div style="display: flex">
+                            <div class="prj-button-container">
+                                <a class="prj-button" asp-page="./Details" asp-route-id="@item.Id">Details</a>
+                            </div>
+                        </div>
                     }
                 }
-            </tr>
-}
-    </tbody>
-</table>
+            </div>
+        </div>
+    }
+</div>
+
+

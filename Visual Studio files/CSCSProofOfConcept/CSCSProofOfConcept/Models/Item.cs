@@ -17,6 +17,7 @@ namespace CSCSProofOfConcept.Models
         public string Specifications { get; set; }
 
         public int DistributionCenterId { get; set; }
+        [Display(Name = "Distribution Center")]
         public DistributionCenter? DistributionCenter { get; set; } 
     }
 }

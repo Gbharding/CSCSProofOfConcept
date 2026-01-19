@@ -124,9 +124,6 @@ namespace CSCSProofOfConcept.Pages.Projects
                 }
                 _context.Entry(Project).Property(m => m.PrjStage).IsModified = true;
 
-                //TODO Add change history updates
-
-
                 //Project is finished, publish changes
                 if (Project.PrjStage == 10)
                 {
@@ -190,6 +187,10 @@ namespace CSCSProofOfConcept.Pages.Projects
 
                 }
 
+
+                Project.History = StaticProject.History;
+                Project.History += CacheData.User + " Accepted " + DateTime.Now.ToString() + "; ";
+                _context.Entry(Project).Property(m => m.History).IsModified = true;
 
 
                 try
@@ -261,6 +262,10 @@ namespace CSCSProofOfConcept.Pages.Projects
                 }
 
                 _context.Entry(Project).Property(m => m.PrjStage).IsModified = true;
+
+                Project.History = StaticProject.History;
+                Project.History += CacheData.User + " Rejected " + DateTime.Now.ToString() + "; ";
+                _context.Entry(Project).Property(m => m.History).IsModified = true;
 
                 try
                 {

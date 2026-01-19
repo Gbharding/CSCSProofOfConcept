@@ -10,54 +10,59 @@
 
 @if (CacheData.User != "CM")
 {
-    <p>
-        <a asp-page="Create">Create New</a>
-    </p>
+    <div style="display: flex;">
+        <p class="new-button">
+            <a class="new-text" asp-page="Create">Create New</a>
+        </p>
+    </div>
 }
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.DistributionCenter[0].Name)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.DistributionCenter[0].Address)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.DistributionCenter[0].NumTrucks)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model.DistributionCenter) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Name)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Address)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.NumTrucks)
-            </td>
-            <td>
-            @if (CacheData.User != "CM") 
-            {
-                    <td>
-                        <a asp-page="./Edit" asp-route-id="@item.Id">Edit</a> |
-                        <a asp-page="./Details" asp-route-id="@item.Id">Details</a> |
-                        <a asp-page="./Delete" asp-route-id="@item.Id">Delete</a>
-                    </td>
-                } else
+
+<div class="card-holder">
+    @foreach (var item in Model.DistributionCenter)
+    {
+        <div class="card">
+            <div class="card-interior">
+                <h4 style="margin-top: 2px;">
+                    @Html.DisplayFor(modelItem => item.Name)
+                </h4>
+                <div style="display: flex;">
+                    <div class="stage-label">
+                        <label class="element-body">
+                            <b>Address:</b> <br /> @Html.DisplayFor(modelItem => item.Address)
+                        </label>
+                    </div>
+                </div>
+                <div style="display: flex;">
+                    <div class="stage-label">
+                        <label class="element-body">
+                            @Html.DisplayFor(modelItem => item.NumTrucks) trucks
+                        </label>
+                    </div>
+                </div>
+
+                @if (CacheData.User != "CM")
                 {
-                    <td>
-                        <a asp-page="./Details" asp-route-id="@item.Id">Details</a> 
-                    </td>
-                    
+                    <div style="display: flex">
+                        <div class="prj-button-container">
+                            <a class="prj-button" asp-page="./Edit" asp-route-id="@item.Id">Edit</a>
+                        </div>
+                        <div class="prj-button-container">
+                            <a class="prj-button" asp-page="./Details" asp-route-id="@item.Id">Details</a>
+                        </div>
+                        <div class="prj-button-container">
+                            <a class="prj-button" asp-page="./Delete" asp-route-id="@item.Id">Delete</a>
+                        </div>
+                    </div>
                 }
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
+                else
+                {
+                    <div style="display: flex">
+                        <div class="prj-button-container">
+                            <a class="prj-button" asp-page="./Details" asp-route-id="@item.Id">Details</a>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    }
+</div>
