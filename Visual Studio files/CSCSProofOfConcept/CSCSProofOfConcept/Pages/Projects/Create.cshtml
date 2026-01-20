@@ -26,6 +26,7 @@
 
             @if (CacheData.InProgPrj != 1)
                 {
+                <div style="font-weight: bold; margin-top: 15px;">*An Item is required for transitions or discontinuations</div>
                 <div style="margin-top: 15px;" class="form-group">
                         <label asp-for="Project.Item" class="control-label"></label>
                     <select style="margin-top: 10px;" asp-for="Project.ItemId" class="form-control" asp-items="@Model.ItemNameSL">
@@ -35,12 +36,19 @@
                     </div>
                 }
 
-            <div style="margin-top: 15px;" class="form-group">
-                <label asp-for="Project.NewSpec" class="control-label"></label>
-                <input style="margin-top: 10px;" asp-for="Project.NewSpec" class="form-control" />
-                <span asp-validation-for="Project.NewSpec" class="text-danger"></span>
-            </div>
-            <div style="margin-top: 15px;" class="form-group">
+            @if (CacheData.InProgPrj == 1)
+            {
+                <div style="font-weight: bold; margin-top: 15px;">*Specifications are required for new projects</div>
+            }
+            @if (CacheData.InProgPrj != 3)
+            {
+                <div style="margin-top: 15px;" class="form-group">
+                    <label asp-for="Project.NewSpec" class="control-label"></label>
+                    <input style="margin-top: 10px;" asp-for="Project.NewSpec" class="form-control" />
+                    <span asp-validation-for="Project.NewSpec" class="text-danger"></span>
+                </div>
+            }
+                <div style="margin-top: 15px;" class="form-group">
                 <input type="submit" value="Create" class="btn btn-primary" />
             </div>
         </form>

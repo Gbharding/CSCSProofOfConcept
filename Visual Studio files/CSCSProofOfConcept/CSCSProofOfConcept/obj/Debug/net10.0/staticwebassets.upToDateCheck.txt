@@ -1,6 +1,5 @@
 wwwroot\css\site.css
 wwwroot\favicon.ico
-wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
@@ -61,8 +60,9 @@ wwwroot\lib\jquery\dist\jquery.slim.js
 wwwroot\lib\jquery\dist\jquery.slim.min.js
 wwwroot\lib\jquery\dist\jquery.slim.min.map
 wwwroot\lib\jquery\LICENSE.txt
+wwwroot\js\site.js
+C:\Users\GBHar\source\repos\CSCSProofOfConcept\CSCSProofOfConcept\Visual Studio files\CSCSProofOfConcept\CSCSProofOfConcept\wwwroot\css\site.css
 C:\Users\GBHar\source\repos\CSCSProofOfConcept\CSCSProofOfConcept\Visual Studio files\CSCSProofOfConcept\CSCSProofOfConcept\wwwroot\favicon.ico
-C:\Users\GBHar\source\repos\CSCSProofOfConcept\CSCSProofOfConcept\Visual Studio files\CSCSProofOfConcept\CSCSProofOfConcept\wwwroot\js\site.js
 C:\Users\GBHar\source\repos\CSCSProofOfConcept\CSCSProofOfConcept\Visual Studio files\CSCSProofOfConcept\CSCSProofOfConcept\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
 C:\Users\GBHar\source\repos\CSCSProofOfConcept\CSCSProofOfConcept\Visual Studio files\CSCSProofOfConcept\CSCSProofOfConcept\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
 C:\Users\GBHar\source\repos\CSCSProofOfConcept\CSCSProofOfConcept\Visual Studio files\CSCSProofOfConcept\CSCSProofOfConcept\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
@@ -122,4 +122,4 @@ C:\Users\GBHar\source\repos\CSCSProofOfConcept\CSCSProofOfConcept\Visual Studio 
 C:\Users\GBHar\source\repos\CSCSProofOfConcept\CSCSProofOfConcept\Visual Studio files\CSCSProofOfConcept\CSCSProofOfConcept\wwwroot\lib\jquery\dist\jquery.slim.min.js
 C:\Users\GBHar\source\repos\CSCSProofOfConcept\CSCSProofOfConcept\Visual Studio files\CSCSProofOfConcept\CSCSProofOfConcept\wwwroot\lib\jquery\dist\jquery.slim.min.map
 C:\Users\GBHar\source\repos\CSCSProofOfConcept\CSCSProofOfConcept\Visual Studio files\CSCSProofOfConcept\CSCSProofOfConcept\wwwroot\lib\jquery\LICENSE.txt
-C:\Users\GBHar\source\repos\CSCSProofOfConcept\CSCSProofOfConcept\Visual Studio files\CSCSProofOfConcept\CSCSProofOfConcept\wwwroot\css\site.css
+C:\Users\GBHar\source\repos\CSCSProofOfConcept\CSCSProofOfConcept\Visual Studio files\CSCSProofOfConcept\CSCSProofOfConcept\wwwroot\js\site.js

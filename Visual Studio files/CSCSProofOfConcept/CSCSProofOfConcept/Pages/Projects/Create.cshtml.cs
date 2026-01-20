@@ -51,7 +51,18 @@ namespace CSCSProofOfConcept.Pages.Projects
                         emptyProject.PrjType = PrjType.Discontinue;
                         break;
                 }
+
+                if (emptyProject.PrjType == PrjType.New && emptyProject.NewSpec == null)
+                {
+                    return Page();
+                }
+                if (emptyProject.PrjType != PrjType.New && emptyProject.ItemId == null)
+                {
+                    PopulateItemDropDownList(_context, emptyProject.ItemId);
+                    return Page();
+                }
                 CacheData.InProgPrj = 0;
+
                 _context.Project.Add(emptyProject);
                 await _context.SaveChangesAsync();
                 return RedirectToPage("./Index");

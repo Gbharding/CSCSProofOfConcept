@@ -22,7 +22,6 @@ C:\Users\GBHar\source\repos\CSCSProofOfConcept\CSCSProofOfConcept\Visual Studio 
 C:\Users\GBHar\source\repos\CSCSProofOfConcept\CSCSProofOfConcept\Visual Studio files\CSCSProofOfConcept\CSCSProofOfConcept\obj\Debug\net10.0\scopedcss\bundle\CSCSProofOfConcept.styles.css
 C:\Users\GBHar\source\repos\CSCSProofOfConcept\CSCSProofOfConcept\Visual Studio files\CSCSProofOfConcept\CSCSProofOfConcept\obj\Debug\net10.0\scopedcss\projectbundle\CSCSProofOfConcept.bundle.scp.css
 C:\Users\GBHar\source\repos\CSCSProofOfConcept\CSCSProofOfConcept\Visual Studio files\CSCSProofOfConcept\CSCSProofOfConcept\obj\Debug\net10.0\compressed\z72iqb10k6-{0}-61n19gt1b8-61n19gt1b8.gz
-C:\Users\GBHar\source\repos\CSCSProofOfConcept\CSCSProofOfConcept\Visual Studio files\CSCSProofOfConcept\CSCSProofOfConcept\obj\Debug\net10.0\compressed\1kqdtbvh8c-{0}-xtxxf3hu2r-xtxxf3hu2r.gz
 C:\Users\GBHar\source\repos\CSCSProofOfConcept\CSCSProofOfConcept\Visual Studio files\CSCSProofOfConcept\CSCSProofOfConcept\obj\Debug\net10.0\compressed\bygkhz47ne-{0}-bqjiyaj88i-bqjiyaj88i.gz
 C:\Users\GBHar\source\repos\CSCSProofOfConcept\CSCSProofOfConcept\Visual Studio files\CSCSProofOfConcept\CSCSProofOfConcept\obj\Debug\net10.0\compressed\t4vhu48ec3-{0}-c2jlpeoesf-c2jlpeoesf.gz
 C:\Users\GBHar\source\repos\CSCSProofOfConcept\CSCSProofOfConcept\Visual Studio files\CSCSProofOfConcept\CSCSProofOfConcept\obj\Debug\net10.0\compressed\2dfpdgvwjq-{0}-erw9l3u2r3-erw9l3u2r3.gz
@@ -338,3 +337,4 @@ C:\Users\GBHar\source\repos\CSCSProofOfConcept\CSCSProofOfConcept\Visual Studio 
 C:\Users\GBHar\source\repos\CSCSProofOfConcept\CSCSProofOfConcept\Visual Studio files\CSCSProofOfConcept\CSCSProofOfConcept\obj\Debug\net10.0\compressed\pxkyz2llat-{0}-wwji2lueuk-wwji2lueuk.gz
 C:\Users\GBHar\source\repos\CSCSProofOfConcept\CSCSProofOfConcept\Visual Studio files\CSCSProofOfConcept\CSCSProofOfConcept\obj\Debug\net10.0\compressed\u9zu0c56t5-{0}-wwji2lueuk-wwji2lueuk.gz
 C:\Users\GBHar\source\repos\CSCSProofOfConcept\CSCSProofOfConcept\Visual Studio files\CSCSProofOfConcept\CSCSProofOfConcept\obj\Debug\net10.0\compressed\0vz4c6zcyw-{0}-57yrmf25r1-57yrmf25r1.gz
+C:\Users\GBHar\source\repos\CSCSProofOfConcept\CSCSProofOfConcept\Visual Studio files\CSCSProofOfConcept\CSCSProofOfConcept\obj\Debug\net10.0\compressed\1kqdtbvh8c-{0}-3r8b2a0bt1-3r8b2a0bt1.gz

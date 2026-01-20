@@ -89,14 +89,6 @@
             @Html.DisplayFor(model => model.Project.DistributionCenter.Name)
         </td>
     </tr>
-    <tr class="detail-table">
-        <th class="detail-table">
-            @Html.DisplayNameFor(model => model.Project.History)
-        </th>
-        <td class="detail-table">
-            @Html.DisplayFor(model => model.Project.History)
-        </td>
-    </tr>
 </table>
 
 
@@ -119,14 +111,18 @@
             {
                 <div style="margin-top: 15px;" class="form-group">
                     <label asp-for="Project.PrjPrice" class="control-label"></label>
-                    <input style="margin-top: 10px;" asp-for="Project.PrjPrice" class="form-control" />
+                    <input type="number" min="0" step="any" style="margin-top: 10px;" asp-for="Project.PrjPrice" class="form-control" />
                     <span asp-validation-for="Project.PrjPrice" class="text-danger"></span>
                 </div>
 
             }
             @if (Model.Project.PrjStage == 5)
             {
-                <div style="margin-top: 15px;" class="form-group">
+                    @if (Model.Project.PrjType == Models.PrjType.New)
+                    {
+                        <div style="font-weight: bold; margin-top: 15px;">*A Distribution Center is required for new projects</div>
+                    }
+                    <div style="margin-top: 15px;" class="form-group">
                     <label asp-for="Project.DistributionCenter" class="control-label"></label>
                     <select style="margin-top: 10px;" asp-for="Project.DistributionCenterId" class="form-control" asp-items="@Model.DCNameSL">
                         <option value="">-- Select a Distribution Center --</option>
@@ -137,12 +133,12 @@
             @if (Model.Project.PrjStage != 0)
                 {
                     <div style="margin-top: 15px;" class="form-group">
-                        <input type="submit" asp-route-type="1" value="Approve" class="btn btn-primary" />
-                        <input type="submit" asp-route-type="2" value="Reject" class="btn btn-danger" />
+                        <input type="submit" asp-route-id="@Model.Project.Id" asp-page-handler="accept" value="Approve" class="btn btn-primary" />
+                        <input type="submit" asp-page-handler="reject" value="Reject" class="btn btn-danger" />
                     </div>
                 } else
                 {
-                    <input style="margin-top: 15px;" type="submit" asp-route-type="1" value="Approve" class="btn btn-primary" />
+                        <input style="margin-top: 15px;" type="submit" asp-route-id="@Model.Project.Id" asp-page-handler="accept" value="Approve" class="btn btn-primary" />
                 }
 
         </form>

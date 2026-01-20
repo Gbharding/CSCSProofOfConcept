@@ -23,7 +23,12 @@ namespace CSCSProofOfConcept.Pages.Projects
 
         public async Task OnGetAsync()
         {
-            Project = await _context.Project
+
+            var projects = from p in _context.Project
+                        select p;
+            projects = projects.Where(i => i.PrjStage < 10);
+
+            Project = await projects
                 .Include(i => i.Item)
                 .ToListAsync();
         }
